@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<link rel="stylesheet" href="scss/style.css" />
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="scss/bootstrap-4-3-1.css">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" />
+	<!-- Slick -->
+	<link rel="stylesheet" type="text/css" href="Plugin/slick/slick.css" />
+	<link rel="stylesheet" type="text/css" href="Plugin/slick/slick-theme.css" />
+	<title>Đăng ký nhận từ thiện</title>
+</head>
+
+<body>
+	<div id="wrapper">
+		<!-- header-quan -->
+		<div id="header" class="header-quan container px-0">
+			<div class="row my-3">
+				<div class="header-logo-brand col-12 col-sm-12 col-lg-6 px-0">
+					<a id="logo" href="index.html"><img class="header-logo" src="images/logo-header.png"
+							alt="logo" /></a>
+					<a href="index.html" style="background-color: transparent;">
+						<span class="header-title d-inline-block ml-2">Từ trái tim đến trái tim</span>
+					</a>
+				</div>
+				<div class="header-search col-12 col-sm-12 col-lg-6 px-0">
+					<div id="header-left" class="justify-content-end">
+						<div class="search-panel position-relative">
+							<form method="get" action="/ket-qua-tim-kiem.html">
+								<input class="input-search form-control pl-2" type="text" value="" placeholder="Tìm kiếm" />
+								<button type="submit" id="search" class="px-3 py-0 position-absolute">
+									<i class="fas fa-search"></i>
+								</button>
+							</form>
+						</div>
+						<div class="position-relative">
+							<button id="login-btn-quan" class="btn btn-primary font-weight-bold" type="button"><i
+									class="fa fa-user mr-2"></i>Login</button>
+							<div id="login-quan" class="d-none">
+								<form class="form-login">
+									<div class="form-group">
+										<label for="Email1" class="font-weight-bold">Tên người dùng hoặc Địa chỉ</label>
+										<label for="Email1" class="font-weight-bold">Email</label>
+										<input type="email" class="form-control" id="InputEmail1">
+									</div>
+									<div class="form-group">
+										<label for="exampleInputPassword1" class="font-weight-bold">Mật khẩu</label>
+										<div class="position-relative">
+											<input type="password" class="form-control" id="exampleInputPassword1">
+											<i id="show-password-icon" class="far fa-eye position-absolute"></i>
+										</div>
+									</div>
+									<div class="form-group form-check">
+										<label class="form-check-label">
+											<input class="form-check-input" type="checkbox"> <span
+												class="font-weight-bold">Tự động đăng nhập</span>
+										</label>
+									</div>
+									<button type="submit" class="btn btn-color">Đăng nhập</button>
+								</form>
+							</div>
+						</div>
+						<div id="language" class="border-0 position-relative">
+							<form>
+								<select id="language-select" name="language-select">
+									<option>Tiếng Việt</option>
+									<option>English</option>
+								</select>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<ul id="nav-header">
+				<li><a href="index.html">Trang chủ</a></li>
+				<li><a href="about.html">Về chúng tôi</a></li>
+				<li><a href="partner.html">Đối tác</a></li>
+				<li><a href="news.html">Tin tức</a></li>
+				<li><a href="contact.html">Liên hệ</a></li>
+			</ul>
+			<div id="nav-header-collapse">
+				<nav class="navbar">
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapse"
+						aria-controls="collapse" aria-expanded="false" aria-label="Toggle navigation">
+						<i class="fas fa-bars"></i>
+					</button>
+				</nav>
+				<div class="collapse" id="collapse">
+					<ul id="nav-collapse">
+						<li><a href="index.html">Trang chủ</a></li>
+						<li><a href="about.html">Về chúng tôi</a></li>
+						<li><a href="partner.html">Đối tác</a></li>
+						<li><a href="news.html">Tin tức</a></li>
+						<li><a href="contact.html">Liên hệ</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- ..header-quan -->
+		<!-- main -->
+		<div id="dang-ky-nhan-quan" class="container px-0">
+			<div class="main-nhan">
+				<div id="form-nhan">
+					<div class="title text-center">
+						<button class="title-btn font-weight-bold btn btn-dark py-3 px-lg-5 mt-5">ĐĂNG KÝ NGƯỜI NHẬN TỪ
+							THIỆN</button>
+					</div>
+					<div class="content-form">
+						<div id="form-1" class="form-item">
+							<div class="row">
+								<div class="title-form col-12 col-sm-12 col-lg-6">
+									<p id="text-1" class="text px-3">Các nhóm nhận từ thiện:</p>
+								</div>
+								<div class="option col-12 col-sm-12 col-lg-6">
+									<select name="f-1" id="f-1" class="px-3">
+										<option value="">Chọn nhóm nhận từ thiện</option>
+										<option value="">Trẻ em/ Các nhóm nhân cần bảo trợ</option>
+										<option value="">Cá nhân gặp khó khăn</option>
+										<option value="">Gia đình/Nhóm người ruột thịt</option>
+										<option value="">Nhóm cần hỗ trợ</option>
+										<option value="">Tổ chức cần giúp đỡ</option>
+										<option value="">Vùng bị thiên tai nạn dịch</option>
+										<option value="">Quỹ từ thiện/Tổ chức hoạt động từ thiện</option>
+										<option value="">Khác</option>
+									</select>
+								</div>
+							</div>
+						</div>
+						<div id="form-2" class="form-item">
+							<div class="row">
+								<div class="col-12 col-sm-12 col-lg-6 title-form">
+									<p id="text-2" class="text px-3">Điền thông tin cho nhóm khác</p>
+								</div>
+								<div class="col-12 col-sm-12 col-lg-6 option">
+									<input class="input-text px-3" type="text"
+										placeholder="Điền thông tin khi chọn các bên khác" />
+								</div>
+							</div>
+						</div>
+						<div id="form-3" class="form-item">
+							<div class="row">
+								<div class="col-12 col-sm-12 col-lg-6 title-form">
+									<p id="text-2" class="text px-3">Tên tổ chức/cá nhân/nhóm/vùng:</p>
+								</div>
+								<div class="col-12 col-sm-12 col-lg-6 option">
+									<input class="input-text px-3" type="text"
+										placeholder="Ô điền tên tổ chức/cá nhân" />
+									<span class="require">*</span>
+								</div>
+							</div>
+						</div>
+						<div id="form-4" class="form-item">
+							<div class="row">
+								<div class="col-12 col-sm-12 col-lg-6 title-form">
+									<p id="text-3" class="text px-3">
+										Thuộc tổ chức/cá nhân/nhóm/vùng/khác:
+									</p>
+								</div>
+								<div class="option col-12 col-sm-12 col-lg-6">
+									<select name="f-4" id="f-4" class="px-3">
+										<option value="">Chọn loại đối tượng nhận</option>
+										<option value="">Tổ chức</option>
+										<option value="">Cá nhân</option>
+										<option value="">Nhóm</option>
+										<option value="">Vùng</option>
+										<option value="">Khác</option>
+									</select>
+								</div>
+							</div>
+						</div>
+						<div id="form-5" class="form-item">
+							<div class="row">
+								<div class="col-12 col-sm-12 col-lg-6 title-form">
+									<p id="text-4" class="text px-3">
+										Địa chỉ của tổ chức/cá nhân/nhóm/vùng:
+									</p>
+								</div>
+								<div class="col-12 col-sm-12 col-lg-6 option">
+									<input class="input-text px-3" type="text"
+										placeholder="Ô điền địa chỉ của tổ chức/cá nhân/nhóm/vùng" />
+									<span class="require">*</span>
+								</div>
+							</div>
+						</div>
+						<div id="form-6" class="form-item">
+							<div class="row">
+								<div class="col-12 col-sm-12 col-lg-6 title-form">
+									<p id="text-5" class="text px-3">Website, Fanpage:</p>
+								</div>
+								<div class="col-12 col-sm-12 col-lg-6 option">
+									<input class="input-text px-3" type="text" placeholder="Ô điền Website, Fanpage:" />
+									<span class="require">*</span>
+								</div>
+							</div>
+						</div>
+						<div id="form-7" class="form-item">
+							<div class="row">
+								<div class="col-12 col-sm-12 col-lg-6 title-form">
+									<p id="text-6" class="text px-3">Người đại diện:</p>
+								</div>
+								<div class="col-12 col-sm-12 col-lg-6 option option-1">
+									<input class="input-text px-3" type="text" placeholder="Người đại diện" />
+									<span class="require">*</span>
+								</div>
+							</div>
+						</div>
+						<div id="form-8" class="form-item">
+							<div class="row">
+								<div class="title-form col-12 col-sm-12 col-lg-6">
+									<p id="text-1" class="text px-3">Giới tính</p>
+								</div>
+								<div class="option col-12 col-sm-12 col-lg-6">
+									<select name="f-8" id="f-8" class="px-3">
+										<option value="">Chọn giới tính của bạn</option>
+										<option value="">Nam</option>
+										<option value="">Nữ</option>
+										<option value="">Khác</option>
+									</select>
+								</div>
+							</div>
+						</div>
+						<div id="form-9" class="form-item">
+							<div class="row">
+								<div class="col-12 col-sm-12 col-lg-6 title-form">
+									<p id="text-9" class="text px-3">Địa chỉ liên hệ:</p>
+								</div>
+								<div class="col-12 col-sm-12 col-lg-6 option">
+									<input class="input-text px-3" type="text" placeholder="Ô điền địa chỉ liên hệ" />
+								</div>
+							</div>
+						</div>
+						<div id="form-10" class="form-item">
+							<div class="row">
+								<div class="col-12 col-sm-12 col-lg-6 title-form">
+									<p id="text-9" class="text px-3">Email liên hệ:</p>
+								</div>
+								<div class="col-12 col-sm-12 col-lg-6 option">
+									<input class="input-text px-3" type="text" placeholder="Ô điền Email liên hệ" />
+								</div>
+							</div>
+						</div>
+						<div id="form-11" class="form-item">
+							<div class="row">
+								<div class="col-12 col-sm-12 col-lg-6 title-form">
+									<p id="text-10" class="text px-3">Điện Thoại liên hệ:</p>
+								</div>
+								<div class="col-12 col-sm-12 col-lg-6 option">
+									<input class="input-text px-3" type="text"
+										placeholder="Ô điền điện thoại liên hệ" />
+								</div>
+							</div>
+						</div>
+						<div id="form-12" class="form-item">
+							<div class="row">
+								<div class="col-12 col-sm-12 col-lg-6 title-form">
+									<p id="text-11-2" class="text px-3">Đặc điểm chủ đạo Tổ chức/cá nhân/nhóm vùng</p>
+								</div>
+								<div class="col-12 col-sm-12 col-lg-6 option">
+									<input class="input-text px-3" type="text" placeholder="Ô điền đặc điểm" />
+								</div>
+							</div>
+						</div>
+						<div id="form-13" class="form-item">
+							<div class="row">
+								<div class="col-12 col-sm-12 col-lg-6 title-form">
+									<p id="text-12" class="text px-3">Hình thức nhận tài trợ mong muốn</p>
+								</div>
+								<div class="col-12 col-sm-12 col-lg-6 option">
+									<select class="px-3" name="f-13" id="f-13">
+										<option value="">Chọn hình thức tài trợ mong muốn</option>
+										<option value="">Tiền</option>
+										<option value="">Hàng hóa</option>
+										<option value="">Chi phí dịch vụ</option>
+										<option value="">Sự tham gia đồng hành</option>
+										<option value="">Truyền thông, lan tỏa</option>
+									</select>
+								</div>
+							</div>
+						</div>
+						<div id="form-14" class="form-item">
+							<div class="row">
+								<div class="col-12 col-sm-12 col-lg-6 title-form">
+									<p id="text-11-2" class="text px-3">Tài khoản giao dịch:</p>
+								</div>
+								<div class="col-12 col-sm-12 col-lg-6 option">
+									<input class="input-text px-3" type="text" placeholder="Ô điền tài khoản giao dịch" />
+								</div>
+							</div>
+						</div>
+						<div id="form-15" class="form-item">
+							<div class="row">
+								<div class="col-12 col-sm-12 col-lg-6 title-form">
+									<p id="text-11-2" class="text px-3">Mã số thuế Tổ chức/Cá nhân:</p>
+								</div>
+								<div class="col-12 col-sm-12 col-lg-6 option">
+									<input class="input-text px-3" type="text" placeholder="Ô điền mã số thuế tổ chức/cá nhân" />
+								</div>
+							</div>
+						</div>
+						<div id="form-16" class="form-item">
+							<div class="row">
+								<div class="col-12 col-sm-12 col-lg-6 title-form">
+									<p id="text-15" class="text px-3">Mô tả nhu cầu, mong muốn nhận tài trợ</p>
+								</div>
+								<div class="col-12 col-sm-12 col-lg-6 option">
+									<textarea class="input-text w-100" name="" id="" rows="4" placeholder="Ô điền mô tả nhu cầu, mong muốn tài trợ"></textarea>
+									<input type="file" class="form-control-file border mt-2">
+								</div>
+							</div>
+						</div>
+						<div id="form-17" class="form-item">
+							<div class="row">
+								<div class="col-12 col-sm-12 col-lg-6 title-form">
+									<p id="text-16" class="text px-3">Khoảng giá trị nhận tài trợ mong muốn:</p>
+								</div>
+								<div class="col-12 col-sm-12 col-lg-6 option">
+									<select class="px-3" name="f-17" id="f-17">
+										<option value="">Chọn khoảng tài trợ</option>
+										<option value="">Nhỏ hơn 20 triệu</option>
+										<option value="">Nhỏ hơn 50 triệu</option>
+										<option value="">Lớn hơn 50 triệu</option>
+									</select>
+								</div>
+							</div>
+						</div>
+						<div id="form-18" class="form-item">
+							<div class="row">
+								<div class="col-12 col-sm-12 col-lg-6 title-form">
+									<p id="text-11-2" class="text px-3">Giá trị mong muốn khác:</p>
+								</div>
+								<div class="col-12 col-sm-12 col-lg-6 option">
+									<textarea class="input-text w-100" name="" id="" rows="4" placeholder="Ô điền giá trị tài trợ mong muốn khác"></textarea>
+								</div>
+							</div>
+						</div>
+						<div class="footer-form mt-5">
+							<div class="row">
+								<div class="column-btn col-6 col-sm-6 text-center">
+									<button type="submit"
+										class="form-btn btn btn-light px-4 py-3 text-uppercase font-weight-bold">Đăng
+										ký tài
+										khoản</button>
+								</div>
+								<div class="column-btn col-6 col-sm-6 text-center">
+									<a href="./index.html" class="form-btn form-btn-link btn btn-light px-4 py-3 text-uppercase font-weight-bold">Quay
+											về trang chủ</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- ..main -->
+
+		<!------Footer---- -->
+		<div id="footer" class="container">
+			<div class="row mx-0">
+				<div class="contact-info col-lg-4 col-md-5 col-sm-12">
+					<h4>LIÊN HỆ</h4>
+					<p><strong>Công Ty CP Kỹ Thuật Môi Trường Và Xây Dựng VINACEE Việt Nam</strong></p>
+					<p>Số 5/2 Ngõ 1295. Đường Giải Phóng, Hoàng Liệt, Hoàng Mai, Hà Nội</p>
+					<p>Email: <a class="text-is-email"
+							href="mailto:nhipcaututhienvn@gmail.com">nhipcaututhienvn@gmail.com</a></p>
+					<p>Fanpage: <a
+							href="https://www.facebook.com/Nh%E1%BB%8Bp-c%E1%BA%A7u-t%E1%BB%AB-thi%E1%BB%87n-111554506928605/"
+							target="_blank" rel="noopener noreferrer">Nhịp Cầu Từ Thiện</a></p>
+					<p>Website: <a href="https://nhipcaututhien.vn/">nhipcaututhien.vn</a></p>
+					<p>Tel: 024 3537 8620 - Fax: 024 3537 8623</p>
+					<h4>Tìm Chúng Tôi</h4>
+					<div class="social">
+						<a href="#"><img class="social-item " src="images/facebook.png" alt="fb"></a>
+						<a href="#"><img class="social-item " src="images/gmail.png" alt="gmail"></a>
+						<a href="#"><img class="social-item " src="images/messenger.png" alt="mess"></a>
+						<a href="#"><img class="social-item " src="images/Logo_Zalo.png" alt="zalo"></a>
+						<a href="#"><img class="social-item " src="images/bank-icon.png" alt="bank"></a>
+					</div>
+				</div>
+				<div class="link-footer col-lg-2 col-md-2 col-sm-12 px-0">
+					<a href="index.html">Trang chủ</a>
+					<a href="about.html">Về chúng tôi</a>
+					<a href="partner.html">Đối tác</a>
+					<a href="news.html">Tin tức</a>
+					<a href="contact.html">Liên hệ</a>
+				</div>
+				<div class="img-footer col-lg-6 col-md-5 col-12 pr-md-0 px-0 pt-3 pt-sm-0">
+					<iframe
+						src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7451.844712167416!2d105.84678100000001!3d20.955633!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb083b1a40f8a2743!2zVMOyYSAwOSAtIEtodSDEkcO0IHRo4buLIHBow6FwIHbDom4gLSBU4bupIEhp4buHcCAtIFBoxrDhu51uZyBIb8OgbmcgTGnhu4d0IC0gUS5Ib8OgbmcgTWFpIC0gSE4u!5e0!3m2!1svi!2sus!4v1592035960988!5m2!1svi!2sus"
+						width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen=""
+						aria-hidden="false" tabindex="0"></iframe>
+				</div>
+			</div>
+		</div>
+		<!------End Footer------>
+	</div>
+	<!-- ---start-fixed-left-logo--- -->
+	<div class="fix-home-button">
+		<a href="#">
+			<img src="images/logo-header.png" alt="home">
+		</a>
+	</div>
+	<!-- ---end-fixed-left-logo--- -->
+	<!-- -------messenger ------- -->
+	<div class="messenger">
+		<img src="./images/messagerbtn.png" alt="" style="width:100%">
+		<div id='fb-root'></div>
+		<script>(function (d, s, id) {
+				var js, fjs = d.getElementsByTagName(s)[0];
+				js = d.createElement(s); js.id = id;
+				js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
+				fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));</script>
+		<div class='fb-customerchat' attribution="wordpress" page_id='111554506928605'
+			logged_in_greeting='Xin chào? Bạn cần chúng tôi hỗ trợ gì không?'
+			logged_out_greeting='Xin chào? Bạn cần chúng tôi hỗ trợ gì không?'>
+		</div>
+	</div>
+	<!-- -------end-messenger------- -->
+	<!-- Script -->
+	<script type="text/javascript" src="js/jquery-3.3.1.slim.min.js"></script>
+	<script type="text/javascript" src="js/popper.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="Plugin/slick/slick.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<!-- Script -->
+</body>
+
+</html>

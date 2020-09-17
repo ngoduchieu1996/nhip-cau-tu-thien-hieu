@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<link rel="stylesheet" href="scss/style.css" />
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="scss/bootstrap-4-3-1.css">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" />
+	<!-- Slick -->
+	<link rel="stylesheet" type="text/css" href="Plugin/slick/slick.css" />
+	<link rel="stylesheet" type="text/css" href="Plugin/slick/slick-theme.css" />
+	<title>Từ trái tim đến trái tim</title>
+</head>
+
+<body>
+	<div id="wrapper">
+		<!-- header-quan -->
+		<div id="header" class="header-quan container px-0">
+			<div class="row my-3">
+				<div class="header-logo-brand col-12 col-sm-12 col-lg-6 px-0">
+					<a id="logo" href="index.html"><img class="header-logo" src="images/logo-header.png"
+							alt="logo" /></a>
+					<a href="index.html" style="background-color: transparent;">
+						<span class="header-title d-inline-block ml-2">Từ trái tim đến trái tim</span>
+					</a>
+				</div>
+				<div class="header-search col-12 col-sm-12 col-lg-6 px-0">
+					<div id="header-left" class="justify-content-end">
+						<div class="search-panel position-relative">
+							<form method="get" action="/ket-qua-tim-kiem.html">
+								<input class="input-search form-control pl-2" type="text" value="" placeholder="Tìm kiếm" />
+								<button type="submit" id="search" class="px-3 py-0 position-absolute">
+									<i class="fas fa-search"></i>
+								</button>
+							</form>
+						</div>
+						<div class="position-relative">
+							<button id="login-btn-quan" class="btn btn-primary font-weight-bold" type="button"><i
+									class="fa fa-user mr-2"></i>Login</button>
+							<div id="login-quan" class="d-none">
+								<form class="form-login">
+									<div class="form-group">
+										<label for="Email1" class="font-weight-bold">Tên người dùng hoặc Địa chỉ</label>
+										<label for="Email1" class="font-weight-bold">Email</label>
+										<input type="email" class="form-control" id="InputEmail1">
+									</div>
+									<div class="form-group">
+										<label for="exampleInputPassword1" class="font-weight-bold">Mật khẩu</label>
+										<div class="position-relative">
+											<input type="password" class="form-control" id="exampleInputPassword1">
+											<i id="show-password-icon" class="far fa-eye position-absolute"></i>
+										</div>
+									</div>
+									<div class="form-group form-check">
+										<label class="form-check-label">
+											<input class="form-check-input" type="checkbox"> <span
+												class="font-weight-bold">Tự động đăng nhập</span>
+										</label>
+									</div>
+									<button type="submit" class="btn btn-color">Đăng nhập</button>
+								</form>
+							</div>
+						</div>
+						<div id="language" class="border-0 position-relative">
+							<form>
+								<select id="language-select" name="language-select">
+									<option>Tiếng Việt</option>
+									<option>English</option>
+								</select>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<ul id="nav-header">
+				<li><a href="index.html">Trang chủ</a></li>
+				<li><a href="about.html">Về chúng tôi</a></li>
+				<li><a href="partner.html">Đối tác</a></li>
+				<li><a href="news.html">Tin tức</a></li>
+				<li><a href="contact.html">Liên hệ</a></li>
+			</ul>
+			<div id="nav-header-collapse">
+				<nav class="navbar">
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapse"
+						aria-controls="collapse" aria-expanded="false" aria-label="Toggle navigation">
+						<i class="fas fa-bars"></i>
+					</button>
+				</nav>
+				<div class="collapse" id="collapse">
+					<ul id="nav-collapse">
+						<li><a href="index.html">Trang chủ</a></li>
+						<li><a href="about.html">Về chúng tôi</a></li>
+						<li><a href="partner.html">Đối tác</a></li>
+						<li><a href="news.html">Tin tức</a></li>
+						<li><a href="contact.html">Liên hệ</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- ..header-quan -->
+		<!-- main -->
+		<div class="main news-main-quan">
+			<!-- ---start-fixed-left-logo--- -->
+			<div class="fix-home-button">
+				<a href="#">
+					<img src="images/logo-header.png" alt="home">
+				</a>
+			</div>
+			<!-- ---end-fixed-left-logo--- -->
+			<!-- ---start-news-banner--- -->
+			<div id="news-banner">
+				<img src="images/banner-about.jpg" alt="" style="width: 100%;">
+			</div>
+			<!-- ---end-news-banner--- -->
+			<!-- start-news-section-1 -->
+			<section id="news-section-1" class="container">
+				<div class="row pt-4 pb-4">
+					<div class="col-12 col-sm-12 col-lg-3">
+						<ul>
+							<div class="search-tintuc position-relative">
+								<form method="GET" action="/ket-qua-tim-kiem.html">
+									<input class="input-search-tintuc form-control pl-2" type="text" name="keyword"
+										placeholder="Tìm kiếm" />
+									<button id="search-tintuc" class="position-absolute btn btn-primary mx-0 py-0"><i class="fas fa-search"></i></button>
+								</form>
+							</div>
+							<li class="tintuc-item"><a id="news-tablinks-1" class="tintuc-item-active news-tablinks">
+									<p class="tab-title">Sự kiện sắp tới</p>
+								</a></li>
+							<li class="tintuc-item"><a id="news-tablinks-2" class="news-tablinks">
+									<p class="tab-title">Sự kiện nổi bật</p>
+								</a></li>
+							<li class="tintuc-item"><a id="news-tablinks-3" class="news-tablinks">
+									<p class="tab-title">Các sự kiện đã diễn ra</p>
+								</a></li>
+							<div class="block-image">
+								<figure class="aligncenter">
+									<img src="images/nav-tabs-img.jpg" alt="" class="image-802">
+								</figure>
+							</div>
+						</ul>
+					</div>
+					<div class="col-12 col-sm-12 col-lg-9">
+						<div class="tab-content">
+							<div class="tab-content-title">
+								<img src="images/heart-icon.png" alt="">
+								<h4>SỰ KIỆN SẮP TỚI</h4>
+							</div>
+							<div id="news-tabContent-1" class="news-tab-item">
+								<div class="post-item">
+									<div class="post-thumbnail">
+										<a href="./baiviet.html">
+											<img width="100%" height="80%" src="images/news-498x329.jpg" alt="">
+										</a>
+									</div>
+									<div class="post-content">
+										<h2><a href="./baiviet.html">Kết nối
+												những tấm lòng!</a></h2>
+										<div class="description"><time>2019-09-03T03:36:21</time>
+											<div class="content">“Sống trong đời sống cần có một tấm lòng. Cũng là
+												một lần sống, nhưng cuộc đời có ý nghĩa hơn nhiều khi ta không chỉ
+												sống cho riêng mình”</div>
+											<a class="readmore btn" href="./baiviet.html">Tham gia</a>
+										</div>
+									</div>
+								</div>
+								<div class="post-item">
+									<div class="post-thumbnail">
+										<a href="./baiviet.html">
+											<img width="100%" height="80%" src="images/lan-toa-yeu-thuong-toi-nguoi-ngheo.jpg" alt="">
+										</a>
+									</div>
+									<div class="post-content">
+										<h2><a href="./baiviet.html">Lan tỏa yêu thương tới
+												người nghèo</a></h2>
+										<div class="description"><time>2019-08-29T17:29:39</time>
+											<div class="content">Ông Trần Thanh Mẫn, Bí thư Trung ương Đảng, Chủ
+												tịch UBTƯ MTTQ Việt Nam đã chủ trì cuộc họp rà soát việc tổ chức
+												chương trình truyền hình trực tiếp…
+											</div>
+											<a class="readmore btn" href="./baiviet.html">Tham gia</a>
+										</div>
+									</div>
+								</div>
+								<div class="post-item">
+									<div class="post-thumbnail">
+										<a href="./baiviet.html">
+											<img width="100%" height="80%" src="images/chinh-phu.jpg" alt="">
+										</a>
+									</div>
+									<div class="post-content">
+										<h2><a href="./baiviet.html">Tiếp
+												nhận các tấm lòng thiện nguyện ủng hộ người nghèo</a></h2>
+										<div class="description"><time>2019-08-04T14:03:12</time>
+											<div class="content">Ít phút trước khi Chương trình “Cả nước chung tay
+												vì người nghèo” năm 2019 diễn ra vào 20h tối nay (17/10), Ban chỉ
+												đạo các Chương trình mục tiêu quốc gia… </div>
+											<a class="readmore btn" href="./baiviet.html">Tham gia</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- end-tab-1 -->
+							<div id="news-tabContent-2" class="news-tab-item">
+								<div class="post-item">
+									<div class="post-thumbnail">
+										<a href="./baiviet.html">
+											<img src="images/anh3.jpeg" alt="">
+										</a>
+									</div>
+									<div class="post-content">
+										<h2><a href="./baiviet.html">Kết nối
+												những tấm lòng!</a></h2>
+										<div class="description"><time>2019-09-03T03:36:21</time>
+											<div class="content">“Sống trong đời sống cần có một tấm lòng. Cũng là
+												một lần sống, nhưng cuộc đời có ý nghĩa hơn nhiều khi ta không chỉ
+												sống cho riêng mình”</div>
+											<a class="readmore btn" href="./baiviet.html">Tham gia</a>
+										</div>
+									</div>
+								</div>
+								<div class="post-item">
+									<div class="post-thumbnail">
+										<a href="./baiviet.html">
+											<img src="images/lan-toa-yeu-thuong-toi-nguoi-ngheo.jpg" alt="">
+										</a>
+									</div>
+									<div class="post-content">
+										<h2><a href="./baiviet.html">Lan tỏa yêu thương tới
+												người nghèo</a></h2>
+										<div class="description"><time>2019-08-29T17:29:39</time>
+											<div class="content">“ng Trần Thanh Mẫn, Bí thư Trung ương Đảng, Chủ
+												tịch UBTƯ MTTQ Việt Nam đã chủ trì cuộc họp rà soát việc tổ chức
+												chương trình truyền hình trực tiếp “Cả nước chung tay vì người
+												nghèo” năm 2019….”
+											</div>
+											<a class="readmore btn" href="./baiviet.html">Tham gia</a>
+										</div>
+									</div>
+								</div>
+								<div class="post-item">
+									<div class="post-thumbnail">
+										<a href="./baiviet.html">
+											<img src="images/adobestock111453960686x371-156-1778-8192-1566890719_180x108.png"
+												alt="">
+										</a>
+									</div>
+									<div class="post-content">
+										<h2><a href="./baiviet.html">‘Các
+												nhóm tặng sách thiện nguyện nên liên kết để hoạt động tốt hơn’</a>
+										</h2>
+										<div class="description"><time>2019-08-04T14:03:12</time>
+											<div class="content">Hôm trước tôi có dịp được tham dự lễ kỷ niệm 20 năm
+												của Tủ sách giải trí – giáo dục. Được khơi nguồn từ ý tưởng của bác
+												sĩ Hồ Đắc Duy…</div><a class="readmore btn" href="./baiviet.html">Tham
+												gia</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- end-tab-2 -->
+							<div id="news-tabContent-3" class="news-tab-item">
+								<div class="post-item">
+									<div class="post-thumbnail">
+										<a href="./baiviet.html">
+											<img src="images/20190929-bhh-le-trao-asxh-va-k-8424-8623-1570008491.jpg"
+												alt="">
+										</a>
+									</div>
+									<div class="post-content">
+										<h2><a href="./baiviet.html">Vietcombank
+												trao tặng 10 tỷ cho an sinh xã hội Hải Phòng</a></h2>
+										<div class="description"><time>2019-09-03T03:36:21</time>
+											<div class="content">“Ngày 29/9, Ngân hàng Ngoại thương Việt Nam
+												(Vietcombank) phối hợp thành phố Hải Phòng tổ chức lễ ký kết thỏa
+												thuận hợp tác chiến lược toàn diện…”</div><a class="readmore btn"
+												href="./baiviet.html">Tham
+												gia</a>
+										</div>
+									</div>
+								</div>
+								<div class="post-item">
+									<div class="post-thumbnail"><a href="./baiviet.html">
+											<img src="images/Anh-1e-7249-1571403341.jpg"></a>
+									</div>
+									<div class="post-content">
+										<h2><a href="./baiviet.html">MobiFone chung tay ủng
+												hộ người nghèo</a></h2>
+										<div class="description"><time>2019-08-29T17:29:39</time>
+											<div class="content">Tổng công ty Viễn thông Mobifone ủng hộ 500 triệu
+												đồng trong chương trình “Cả nước chung tay vì người nghèo” tối
+												17/10.
+											</div><a class="readmore btn" href="./baiviet.html">Tham gia</a>
+										</div>
+									</div>
+								</div>
+								<div class="post-item">
+									<div class="post-thumbnail">
+										<a href="./baiviet.html">
+											<img src="images/1869639263-w500-9956-1570430576.png"></a>
+									</div>
+									<div class="post-content">
+										<h2><a href="./baiviet.html">Quỹ
+												từ thiện Hành Trình Xanh ra mắt</a></h2>
+										<div class="description"><time>2019-08-04T14:03:12</time>
+											<div class="content">Quỹ do cán bộ nhân viên NCB lập nên và cam kết đồng
+												hành cùng cộng đồng để góp phần phát triển kinh tế, xã hội.</div><a
+												class="readmore btn" href="./baiviet.html">Tham
+												gia</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- end tab 3 -->
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- end-news-section-1 -->
+			<!-- start-news-section-2 -->
+			<section id="news_section-2">
+				<div class="news_section-2-title">
+					<img src="images/loa-sm-icon.png" alt="">
+					<h4>CÁC GÓI TỪ THIỆN TIÊU BIỂU</h4>
+				</div>
+				<div class="container px-0">
+					<div id="news_section-2-carousel" class="carousel slide" data-ride="carousel">
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<div class="row">
+									<div class="col-12 col-sm-12 col-lg-4 text-center">
+										<div class="featured-post">
+											<a href="chung-tay-vuot-lu.html" class="portfolio-link">
+												<img class="w-100 rounded" height="150px" src="https://secure.gravatar.com/avatar/8b35e9d08e5925aec92f6786565558d3?s=96&d=mm&r=g" alt="">
+											</a>
+										</div>
+										<a href="#">
+											<h4 class="text-center mt-3 text-white text-uppercase font-weight-bold display-4">Chung Tay Vượt Lũ</h4>
+										</a>
+										<p class="text-center font-italic text-secondary">Tháng Tám 7, 2019</p>
+										<div class="text-justify text-white display-5">Contrary to popular belief, Lorem Ipsum is not simply
+											random
+											text. It has roots in a piece of classical Latin literature from 45 BC,
+											making it over
+											2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney
+											College in
+											Virginia,…</div>
+										<a class="thamgia-btn btn btn-light my-4 border-0 text-center" href="chung-tay-vuot-lu.html">
+											<p class="text-center my-0"><span>Tham gia</span><img class="ml-2"
+													src="images/arrow-sm-icon.png" alt=""></p>
+										</a>
+									</div>
+									<div class="col-12 col-sm-12 col-lg-4 text-center">
+										<div class="featured-post">
+											<a href="chung-tay-vuot-lu.html" class="portfolio-link">
+												<img class="w-100 rounded" height="150px" src="images/banner-1-374x248.jpg" alt="">
+											</a>
+										</div>
+										<a href="#">
+											<h4 class="text-center mt-3 text-white text-uppercase font-weight-bold display-4">Chung Tay Vượt Lũ</h4>
+										</a>
+										<p class="text-center font-italic text-secondary">Tháng Tám 7, 2019</p>
+										<div class="text-justify text-white display-5">Contrary to popular belief, Lorem Ipsum is not simply
+											random
+											text. It has roots in a piece of classical Latin literature from 45 BC,
+											making it over
+											2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney
+											College in
+											Virginia,…</div>
+										<a class="thamgia-btn btn btn-light my-4 border-0 text-center" href="chung-tay-vuot-lu.html">
+											<p class="text-center my-0"><span>Tham gia</span><img class="ml-2"
+													src="images/arrow-sm-icon.png" alt=""></p>
+										</a>
+									</div>
+									<div class="col-12 col-sm-12 col-lg-4 text-center">
+										<div class="featured-post">
+											<a href="chung-tay-vuot-lu.html" class="portfolio-link">
+												<img class="w-100 rounded" height="150px" src="https://aphoto.vn/wp-content/uploads/2016/07/cach-chup-hinh-dep-bang-dien-thoai.jpg" alt="">
+											</a>
+										</div>
+										<a href="#">
+											<h4 class="text-center mt-3 text-white text-uppercase font-weight-bold display-4">Chung Tay Vượt Lũ</h4>
+										</a>
+										<p class="text-center font-italic text-secondary">Tháng Tám 7, 2019</p>
+										<div class="text-justify text-white display-5">Contrary to popular belief, Lorem Ipsum is not simply
+											random
+											text. It has roots in a piece of classical Latin literature from 45 BC,
+											making it over
+											2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney
+											College in
+											Virginia,…</div>
+										<a class="thamgia-btn btn btn-light my-4 border-0 text-center" href="chung-tay-vuot-lu.html">
+											<p class="text-center my-0"><span>Tham gia</span><img class="ml-2"
+													src="images/arrow-sm-icon.png" alt=""></p>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-item">
+								<div class="row">
+									<div class="col-12 col-sm-12 col-lg-4 text-center">
+										<div class="featured-post">
+											<a href="chung-tay-vuot-lu.html" class="portfolio-link">
+												<img class="w-100 rounded" height="150px" src="https://secure.gravatar.com/avatar/8b35e9d08e5925aec92f6786565558d3?s=96&d=mm&r=g" alt="">
+											</a>
+										</div>
+										<a href="#">
+											<h4 class="text-center mt-3 text-white text-uppercase font-weight-bold display-4">Chung Tay Vượt Lũ</h4>
+										</a>
+										<p class="text-center font-italic text-secondary">Tháng Tám 7, 2019</p>
+										<div class="text-justify text-white display-5">Contrary to popular belief, Lorem Ipsum is not simply
+											random
+											text. It has roots in a piece of classical Latin literature from 45 BC,
+											making it over
+											2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney
+											College in
+											Virginia,…</div>
+										<a class="thamgia-btn btn btn-light my-4 border-0 text-center" href="chung-tay-vuot-lu.html">
+											<p class="text-center my-0"><span>Tham gia</span><img class="ml-2"
+													src="images/arrow-sm-icon.png" alt=""></p>
+										</a>
+									</div>
+									<div class="col-12 col-sm-12 col-lg-4 text-center">
+										<div class="featured-post">
+											<a href="chung-tay-vuot-lu.html" class="portfolio-link">
+												<img class="w-100 rounded" height="150px" src="images/banner-1-374x248.jpg" alt="">
+											</a>
+										</div>
+										<a href="#">
+											<h4 class="text-center mt-3 text-white text-uppercase font-weight-bold display-4">Chung Tay Vượt Lũ</h4>
+										</a>
+										<p class="text-center font-italic text-secondary">Tháng Tám 7, 2019</p>
+										<div class="text-justify text-white display-5">Contrary to popular belief, Lorem Ipsum is not simply
+											random
+											text. It has roots in a piece of classical Latin literature from 45 BC,
+											making it over
+											2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney
+											College in
+											Virginia,…</div>
+										<a class="thamgia-btn btn btn-light my-4 border-0 text-center" href="chung-tay-vuot-lu.html">
+											<p class="text-center my-0"><span>Tham gia</span><img class="ml-2"
+													src="images/arrow-sm-icon.png" alt=""></p>
+										</a>
+									</div>
+									<div class="col-12 col-sm-12 col-lg-4 text-center">
+										<div class="featured-post">
+											<a href="chung-tay-vuot-lu.html" class="portfolio-link">
+												<img class="w-100 rounded" height="150px" src="images/banner-1-374x248.jpg" alt="">
+											</a>
+										</div>
+										<a href="#">
+											<h4 class="text-center mt-3 text-white text-uppercase font-weight-bold display-4">Chung Tay Vượt Lũ</h4>
+										</a>
+										<p class="text-center font-italic text-secondary">Tháng Tám 7, 2019</p>
+										<div class="text-justify text-white display-5">Contrary to popular belief, Lorem Ipsum is not simply
+											random
+											text. It has roots in a piece of classical Latin literature from 45 BC,
+											making it over
+											2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney
+											College in
+											Virginia,…</div>
+										<a class="thamgia-btn btn btn-light my-4 border-0 text-center" href="chung-tay-vuot-lu.html">
+											<p class="text-center my-0"><span>Tham gia</span><img class="ml-2"
+													src="images/arrow-sm-icon.png" alt=""></p>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-item">
+								<div class="row">
+									<div class="col-12 col-sm-12 col-lg-4 text-center">
+										<div class="featured-post">
+											<a href="chung-tay-vuot-lu.html" class="portfolio-link">
+												<img class="w-100 rounded" height="150px" src="https://secure.gravatar.com/avatar/8b35e9d08e5925aec92f6786565558d3?s=96&d=mm&r=g" alt="">
+											</a>
+										</div>
+										<a href="#">
+											<h4 class="text-center mt-3 text-white text-uppercase font-weight-bold display-4">Chung Tay Vượt Lũ</h4>
+										</a>
+										<p class="text-center font-italic text-secondary">Tháng Tám 7, 2019</p>
+										<div class="text-justify text-white display-5">Contrary to popular belief, Lorem Ipsum is not simply
+											random
+											text. It has roots in a piece of classical Latin literature from 45 BC,
+											making it over
+											2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney
+											College in
+											Virginia,…</div>
+										<a class="thamgia-btn btn btn-light my-4 border-0 text-center" href="chung-tay-vuot-lu.html">
+											<p class="text-center my-0"><span>Tham gia</span><img class="ml-2"
+													src="images/arrow-sm-icon.png" alt=""></p>
+										</a>
+									</div>
+									<div class="col-12 col-sm-12 col-lg-4 text-center">
+										<div class="featured-post">
+											<a href="chung-tay-vuot-lu.html" class="portfolio-link">
+												<img class="w-100 rounded" height="150px" src="images/banner-1-374x248.jpg" alt="">
+											</a>
+										</div>
+										<a href="#">
+											<h4 class="text-center mt-3 text-white text-uppercase font-weight-bold display-4">Chung Tay Vượt Lũ</h4>
+										</a>
+										<p class="text-center font-italic text-secondary">Tháng Tám 7, 2019</p>
+										<div class="text-justify text-white display-5">Contrary to popular belief, Lorem Ipsum is not simply
+											random
+											text. It has roots in a piece of classical Latin literature from 45 BC,
+											making it over
+											2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney
+											College in
+											Virginia,…</div>
+										<a class="thamgia-btn btn btn-light my-4 border-0 text-center" href="chung-tay-vuot-lu.html">
+											<p class="text-center my-0"><span>Tham gia</span><img class="ml-2"
+													src="images/arrow-sm-icon.png" alt=""></p>
+										</a>
+									</div>
+									<div class="col-12 col-sm-12 col-lg-4 text-center">
+										<div class="featured-post">
+											<a href="chung-tay-vuot-lu.html" class="portfolio-link">
+												<img class="w-100 rounded" height="150px" src="https://aphoto.vn/wp-content/uploads/2016/07/cach-chup-hinh-dep-bang-dien-thoai.jpg" alt="">
+											</a>
+										</div>
+										<a href="#">
+											<h4 class="text-center mt-3 text-white text-uppercase font-weight-bold display-4">Chung Tay Vượt Lũ</h4>
+										</a>
+										<p class="text-center font-italic text-secondary">Tháng Tám 7, 2019</p>
+										<div class="text-justify text-white display-5">Contrary to popular belief, Lorem Ipsum is not simply
+											random
+											text. It has roots in a piece of classical Latin literature from 45 BC,
+											making it over
+											2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney
+											College in
+											Virginia,…</div>
+										<a class="thamgia-btn btn btn-light my-4 border-0 text-center" href="chung-tay-vuot-lu.html">
+											<p class="text-center my-0"><span>Tham gia</span><img class="ml-2"
+													src="images/arrow-sm-icon.png" alt=""></p>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<a class="carousel-control-prev" href="#news_section-2-carousel" data-slide="prev">
+							<i class="fas fa-chevron-left display-2"></i>
+						</a>
+						<a class="carousel-control-next" href="#news_section-2-carousel" data-slide="next">
+							<i class="fas fa-chevron-right display-2"></i>
+						</a>
+					</div>
+				</div>
+			</section>
+			<!-- end-news-section-2 -->
+			<!-- start-news-section-3 -->
+			<section id="news_section-3">
+				<div class="tile">
+					<img src="images/pen.png" alt="">
+					<h4>BÁO CHÍ VIẾT VỀ CHÚNG TÔI</h4>
+				</div>
+				<div class="container px-0">
+					<div id="news_section-3-carousel" class="carousel slide" data-ride="carousel" data-interval="false">
+						<div class="carousel-inner">
+							<div class="carousel-item active my-3">
+								<div class="row">
+									<div class="col-12 col-sm-12 col-lg-4 text-center">
+										<img class="w-50 h-50 rounded pt-5" src="images/8-1548392206116.jpg" alt="">
+										<h4 class="carousel-item-title text-justify mt-3 mb-2 text-center display-4 font-weight-bold">Đây là năm thứ 6 Trường THPT Lương Thế Vinh gói bánh chưng để làm từ thiện …</h4>
+										<p class="text-left font-italic text-center">25/0/2019</p>
+										<a class="btn btn-primary d-inline-block mx-auto mb-4" href="https://dantri.com.vn/giao-duc-khuyen-hoc/hoc-sinh-truong-luong-the-vinh-goi-2500-chiec-banh-chung-lam-tu-thien-20190125121544492.html">Xem thêm</a>
+									</div>
+									<div class="col-12 col-sm-12 col-lg-4 text-center">
+										<img class="w-50 h-50 rounded pt-5" src="images/640-1573525661-1573531655-1573-5981-8264-1573531813.png" alt="">
+										<h4 class="carousel-item-title text-justify mt-3 mb-2 text-center display-4 font-weight-bold">Hơn 250 cán bộ nhân viên Ngân hàng TMCP Việt Nam Thương Tín (Vietbank…</h4>
+										<p class="text-left font-italic text-center">12/11/2019</p>
+										<a class="btn btn-primary d-inline-block mx-auto mb-4" href="https://dantri.com.vn/giao-duc-khuyen-hoc/hoc-sinh-truong-luong-the-vinh-goi-2500-chiec-banh-chung-lam-tu-thien-20190125121544492.html">Xem thêm</a>
+									</div>
+									<div class="col-12 col-sm-12 col-lg-4 text-center">
+										<img class="w-50 h-50 rounded pt-5" src="images/tr_upwh.jpg" alt="">
+										<h4 class="carousel-item-title text-justify mt-3 mb-2 text-center display-4 font-weight-bold">Tổng thống Donald Trump phải trả 2 triệu USD chi sai từ quỹ từ thiện cho trẻ …</h4>
+										<p class="text-left font-italic text-center">08/11/2019</p>
+										<a class="btn btn-primary d-inline-block mx-auto mb-4" href="https://dantri.com.vn/giao-duc-khuyen-hoc/hoc-sinh-truong-luong-the-vinh-goi-2500-chiec-banh-chung-lam-tu-thien-20190125121544492.html">Xem thêm</a>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-item my-3">
+								<div class="row">
+									<div class="col-12 col-sm-12 col-lg-4 text-center">
+										<img class="w-50 h-50 rounded pt-5" src="images/8-1548392206116.jpg" alt="">
+										<h4 class="carousel-item-title text-justify mt-3 mb-2 text-center display-4 font-weight-bold">Đây là năm thứ 6 Trường THPT Lương Thế Vinh gói bánh chưng để làm từ thiện …</h4>
+										<p class="text-left font-italic text-center">25/0/2019</p>
+										<a class="btn btn-primary d-inline-block mx-auto mb-4" href="https://dantri.com.vn/giao-duc-khuyen-hoc/hoc-sinh-truong-luong-the-vinh-goi-2500-chiec-banh-chung-lam-tu-thien-20190125121544492.html">Xem thêm</a>
+									</div>
+									<div class="col-12 col-sm-12 col-lg-4 text-center">
+										<img class="w-50 h-50 rounded pt-5" src="images/640-1573525661-1573531655-1573-5981-8264-1573531813.png" alt="">
+										<h4 class="carousel-item-title text-justify mt-3 mb-2 text-center display-4 font-weight-bold">Hơn 250 cán bộ nhân viên Ngân hàng TMCP Việt Nam Thương Tín (Vietbank…</h4>
+										<p class="text-left font-italic text-center">12/11/2019</p>
+										<a class="btn btn-primary d-inline-block mx-auto mb-4" href="https://dantri.com.vn/giao-duc-khuyen-hoc/hoc-sinh-truong-luong-the-vinh-goi-2500-chiec-banh-chung-lam-tu-thien-20190125121544492.html">Xem thêm</a>
+									</div>
+									<div class="col-12 col-sm-12 col-lg-4 text-center">
+										<img class="w-50 h-50 rounded pt-5" src="images/tr_upwh.jpg" alt="">
+										<h4 class="carousel-item-title text-justify mt-3 mb-2 text-center display-4 font-weight-bold">Tổng thống Donald Trump phải trả 2 triệu USD chi sai từ quỹ từ thiện cho trẻ …</h4>
+										<p class="text-left font-italic text-center">08/11/2019</p>
+										<a class="btn btn-primary d-inline-block mx-auto mb-4" href="https://dantri.com.vn/giao-duc-khuyen-hoc/hoc-sinh-truong-luong-the-vinh-goi-2500-chiec-banh-chung-lam-tu-thien-20190125121544492.html">Xem thêm</a>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-item my-3">
+								<div class="row">
+									<div class="col-12 col-sm-12 col-lg-4 text-center">
+										<img class="w-50 h-50 rounded pt-5" src="images/8-1548392206116.jpg" alt="">
+										<h4 class="carousel-item-title text-justify mt-3 mb-2 text-center display-4 font-weight-bold">Đây là năm thứ 6 Trường THPT Lương Thế Vinh gói bánh chưng để làm từ thiện …</h4>
+										<p class="text-left font-italic text-center">25/0/2019</p>
+										<a class="btn btn-primary d-inline-block mx-auto mb-4" href="https://dantri.com.vn/giao-duc-khuyen-hoc/hoc-sinh-truong-luong-the-vinh-goi-2500-chiec-banh-chung-lam-tu-thien-20190125121544492.html">Xem thêm</a>
+									</div>
+									<div class="col-12 col-sm-12 col-lg-4 text-center">
+										<img class="w-50 h-50 rounded pt-5" src="images/640-1573525661-1573531655-1573-5981-8264-1573531813.png" alt="">
+										<h4 class="carousel-item-title text-justify mt-3 mb-2 text-center display-4 font-weight-bold">Hơn 250 cán bộ nhân viên Ngân hàng TMCP Việt Nam Thương Tín (Vietbank…</h4>
+										<p class="text-left font-italic text-center">12/11/2019</p>
+										<a class="btn btn-primary d-inline-block mx-auto mb-4" href="https://dantri.com.vn/giao-duc-khuyen-hoc/hoc-sinh-truong-luong-the-vinh-goi-2500-chiec-banh-chung-lam-tu-thien-20190125121544492.html">Xem thêm</a>
+									</div>
+									<div class="col-12 col-sm-12 col-lg-4 text-center">
+										<img class="w-50 h-50 rounded pt-5" src="images/tr_upwh.jpg" alt="">
+										<h4 class="carousel-item-title text-justify mt-3 mb-2 text-center display-4 font-weight-bold">Tổng thống Donald Trump phải trả 2 triệu USD chi sai từ quỹ từ thiện cho trẻ …</h4>
+										<p class="text-left font-italic text-center">08/11/2019</p>
+										<a class="btn btn-primary d-inline-block mx-auto mb-4" href="https://dantri.com.vn/giao-duc-khuyen-hoc/hoc-sinh-truong-luong-the-vinh-goi-2500-chiec-banh-chung-lam-tu-thien-20190125121544492.html">Xem thêm</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<a class="carousel-control-prev" href="#news_section-3-carousel" data-slide="prev">
+							<i class="fas fa-chevron-left display-2"></i>
+						</a>
+						<a class="carousel-control-next" href="#news_section-3-carousel" data-slide="next">
+							<i class="fas fa-chevron-right display-2"></i>
+						</a>
+					</div>
+				</div>
+
+			</section>
+			<!-- end-news-section-3 -->
+		</div>
+		<!-- ..main -->
+
+		<!------Footer---- -->
+		<div id="footer" class="container">
+			<div class="row mx-0">
+				<div class="contact-info col-lg-4 col-md-5 col-sm-12">
+					<h4>LIÊN HỆ</h4>
+					<p><strong>Công Ty CP Kỹ Thuật Môi Trường Và Xây Dựng VINACEE Việt Nam</strong></p>
+					<p>Số 5/2 Ngõ 1295. Đường Giải Phóng, Hoàng Liệt, Hoàng Mai, Hà Nội</p>
+					<p>Email: <a class="text-is-email"
+							href="mailto:nhipcaututhienvn@gmail.com">nhipcaututhienvn@gmail.com</a></p>
+					<p>Fanpage: <a
+							href="https://www.facebook.com/Nh%E1%BB%8Bp-c%E1%BA%A7u-t%E1%BB%AB-thi%E1%BB%87n-111554506928605/"
+							target="_blank" rel="noopener noreferrer">Nhịp Cầu Từ Thiện</a></p>
+					<p>Website: <a href="https://nhipcaututhien.vn/">nhipcaututhien.vn</a></p>
+					<p>Tel: 024 3537 8620 - Fax: 024 3537 8623</p>
+					<h4>Tìm Chúng Tôi</h4>
+					<div class="social">
+						<a href="#"><img class="social-item " src="images/facebook.png" alt="fb"></a>
+						<a href="#"><img class="social-item " src="images/gmail.png" alt="gmail"></a>
+						<a href="#"><img class="social-item " src="images/messenger.png" alt="mess"></a>
+						<a href="#"><img class="social-item " src="images/Logo_Zalo.png" alt="zalo"></a>
+						<a href="#"><img class="social-item " src="images/bank-icon.png" alt="bank"></a>
+					</div>
+				</div>
+				<div class="link-footer col-lg-2 col-md-2 col-sm-12 px-0">
+					<a href="index.html">Trang chủ</a>
+					<a href="about.html">Về chúng tôi</a>
+					<a href="partner.html">Đối tác</a>
+					<a href="news.html">Tin tức</a>
+					<a href="contact.html">Liên hệ</a>
+				</div>
+				<div class="img-footer col-lg-6 col-md-5 col-12 pr-md-0 px-0 pt-3 pt-sm-0">
+					<iframe
+						src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7451.844712167416!2d105.84678100000001!3d20.955633!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb083b1a40f8a2743!2zVMOyYSAwOSAtIEtodSDEkcO0IHRo4buLIHBow6FwIHbDom4gLSBU4bupIEhp4buHcCAtIFBoxrDhu51uZyBIb8OgbmcgTGnhu4d0IC0gUS5Ib8OgbmcgTWFpIC0gSE4u!5e0!3m2!1svi!2sus!4v1592035960988!5m2!1svi!2sus"
+						width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen=""
+						aria-hidden="false" tabindex="0"></iframe>
+				</div>
+			</div>
+		</div>
+		<!------End Footer------>
+	</div>
+	<!-- -------messenger ------- -->
+	<div class="messenger">
+		<img src="./images/messagerbtn.png" alt="" style="width:100%">
+		<div id='fb-root'></div>
+		<script>(function (d, s, id) {
+				var js, fjs = d.getElementsByTagName(s)[0];
+				js = d.createElement(s); js.id = id;
+				js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
+				fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));</script>
+		<div class='fb-customerchat' attribution="wordpress" page_id='111554506928605'
+			logged_in_greeting='Xin chào? Bạn cần chúng tôi hỗ trợ gì không?'
+			logged_out_greeting='Xin chào? Bạn cần chúng tôi hỗ trợ gì không?'>
+		</div>
+	</div>
+	<!-- -------end-messenger------- -->
+	<!-- Script -->
+	<script type="text/javascript" src="js/jquery-3.3.1.slim.min.js"></script>
+	<script type="text/javascript" src="js/popper.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="Plugin/slick/slick.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>

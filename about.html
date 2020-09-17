@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<link rel="stylesheet" href="scss/style.css" />
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="scss/bootstrap-4-3-1.css">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" />
+	<!-- Slick -->
+	<link rel="stylesheet" type="text/css" href="Plugin/slick/slick.css" />
+	<link rel="stylesheet" type="text/css" href="Plugin/slick/slick-theme.css" />
+	<title>Từ trái tim đến trái tim</title>
+</head>
+
+<body>
+	<div id="wrapper">
+		<!-- header-quan -->
+		<div id="header" class="header-quan container px-0">
+			<div class="row my-3">
+				<div class="header-logo-brand col-12 col-sm-12 col-lg-6 px-0">
+					<a id="logo" href="index.html"><img class="header-logo" src="images/logo-header.png"
+							alt="logo" /></a>
+					<a href="index.html" style="background-color: transparent;">
+						<span class="header-title d-inline-block ml-2">Từ trái tim đến trái tim</span>
+					</a>
+				</div>
+				<div class="header-search col-12 col-sm-12 col-lg-6 px-0">
+					<div id="header-left" class="justify-content-end">
+						<div class="search-panel position-relative">
+							<form method="get" action="/ket-qua-tim-kiem.html">
+								<input class="input-search form-control pl-2" type="text" value=""
+									placeholder="Tìm kiếm" />
+								<button type="submit" id="search" class="px-3 py-0 position-absolute">
+									<i class="fas fa-search"></i>
+								</button>
+							</form>
+						</div>
+						<div class="position-relative">
+							<button id="login-btn-quan" class="btn btn-primary font-weight-bold" type="button"><i
+									class="fa fa-user mr-2"></i>Login</button>
+							<div id="login-quan" class="d-none">
+								<form class="form-login">
+									<div class="form-group">
+										<label for="Email1" class="font-weight-bold">Tên người dùng hoặc Địa chỉ</label>
+										<label for="Email1" class="font-weight-bold">Email</label>
+										<input type="email" class="form-control" id="InputEmail1">
+									</div>
+									<div class="form-group">
+										<label for="exampleInputPassword1" class="font-weight-bold">Mật khẩu</label>
+										<div class="position-relative">
+											<input type="password" class="form-control" id="exampleInputPassword1">
+											<i id="show-password-icon" class="far fa-eye position-absolute"></i>
+										</div>
+									</div>
+									<div class="form-group form-check">
+										<label class="form-check-label">
+											<input class="form-check-input" type="checkbox"> <span
+												class="font-weight-bold">Tự động đăng nhập</span>
+										</label>
+									</div>
+									<button type="submit" class="btn btn-color">Đăng nhập</button>
+								</form>
+							</div>
+						</div>
+						<div id="language" class="border-0 position-relative">
+							<form>
+								<select id="language-select" name="language-select">
+									<option>Tiếng Việt</option>
+									<option>English</option>
+								</select>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<ul id="nav-header">
+				<li><a href="index.html">Trang chủ</a></li>
+				<li><a href="about.html">Về chúng tôi</a></li>
+				<li><a href="partner.html">Đối tác</a></li>
+				<li><a href="news.html">Tin tức</a></li>
+				<li><a href="contact.html">Liên hệ</a></li>
+			</ul>
+			<div id="nav-header-collapse">
+				<nav class="navbar">
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapse"
+						aria-controls="collapse" aria-expanded="false" aria-label="Toggle navigation">
+						<i class="fas fa-bars"></i>
+					</button>
+				</nav>
+				<div class="collapse" id="collapse">
+					<ul id="nav-collapse">
+						<li><a href="index.html">Trang chủ</a></li>
+						<li><a href="about.html">Về chúng tôi</a></li>
+						<li><a href="partner.html">Đối tác</a></li>
+						<li><a href="news.html">Tin tức</a></li>
+						<li><a href="contact.html">Liên hệ</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- ..header-quan -->
+
+		<!-- main -->
+		<div class="main about-main-quan">
+			<!-- ---start-fixed-left-logo--- -->
+			<div class="fix-home-button">
+				<a href="#">
+					<img src="images/logo-header.png" alt="home">
+				</a>
+			</div>
+			<!-- ---end-fixed-left-logo--- -->
+
+			<!-- -----start-about-banner----- -->
+			<div id="about-banner" class="about-banner-quan">
+				<img class="banner-img" src="images/banner-about.jpg" alt="" width="100%">
+			</div>
+			<!-- -----end-about-banner----- -->
+
+			<!-- ----start-about-main---- -->
+			<div id="about-main" class="container">
+				<div class="row align-items-center">
+					<div class="col-12 col-md-5 col-lg-4">
+						<ul id="about_tab-control">
+							<li><a id="tab-1" class="tablinks">
+									<p class="about_tablink-active-color">Chúng tôi là ai</p>
+									<img src="images/we-icon.png" alt="">
+								</a>
+							</li>
+							<li><a id="tab-2" class="tablinks">
+									<p>Sứ mệnh</p>
+									<img src="images/we-icon.png" alt="">
+								</a>
+							</li>
+							<li><a id="tab-3" class="tablinks">
+									<p>Tầm nhìn</p>
+									<img src="images/we-icon.png" alt="">
+								</a>
+							</li>
+							<li><a id="tab-4" class="tablinks">
+									<p>Giá trị cốt lõi</p>
+									<img src="images/we-icon.png" alt="">
+								</a>
+							</li>
+							<li><a id="tab-5" class="tablinks">
+									<p>Mục tiêu</p>
+									<img src="images/we-icon.png" alt="">
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-12 col-md-7 col-lg-8">
+						<div id="about_tab-content">
+							<div id="tab1" class="tabcontent">
+								<h3>Chúng tôi là ai</h3>
+								<p>Chúng tôi luôn đồng hành cùng các bạn, là cầu nối chuyên nghiệp, tận tâm và trao lợi
+									ích giữa người trao từ thiện và người nhận từ thiện, mang đến cho tất cả các bên cơ
+									hội chia sẻ, đồng cảm và kết nối phù hợp với nhu cầu và hoàn cảnh.<br><br></p>
+							</div>
+							<div id="tab2" class="tabcontent">
+								<h3>Sứ mệnh</h3>
+								<p>Chúng tôi là cầu nối chuyên nghiệp, tận tâm, tạo giá trị vượt trội cho Quá trình Trao
+									– Nhận từ thiện. Chia sẻ yêu thương và khơi gợi tinh thần “dám cho đi” của tất cả
+									chúng ta, mang trái tim của tất cả con người trên thế giới về bên nhau gần nhất có
+									thể.<br><br></p>
+							</div>
+							<div id="tab3" class="tabcontent">
+								<h3>Tầm nhìn</h3>
+								<p><br>
+									– Trở thành Nhà tổ chức các Hoạt động và Sự kiện từ thiện thành công và giá trị khác
+									biệt nhất Việt Nam và thế giới!<br>
+									– Trở thành cầu nối ngắn nhất giữa Trái tim đến Trái tim và từ Trái tim đến Cuộc
+									sống!
+									<br><br></p>
+							</div>
+							<div id="tab4" class="tabcontent">
+								<h3>Giá trị cốt lõi</h3>
+								<p><br>
+									– Lợi ích trung thực<br>
+									– Chuyên nghiệp<br>
+									– Giàu tính nhân văn và lòng nhân ái<br>
+									– Mang lại giá trị đích thực cho các đối tác được kết nối<br>
+									– Nâng cao tinh thần sẻ chia từ trái tim và trao giá trị cho cuộc sống cộng đồng
+									<br><br></p>
+							</div>
+							<div id="tab5" class="tabcontent">
+								<h3>Mục tiêu</h3>
+								<p>Chúng tôi luôn đồng hành cùng các bạn, là cầu nối chuyên nghiệp, tận tâm và trao lợi
+									ích giữa người trao từ thiện và người nhận từ thiện, mang đến cho tất cả các bên cơ
+									hội chia sẻ, đồng cảm và kết nối phù hợp với nhu cầu và hoàn cảnh.<br><br></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- ----end-about-main---- -->
+
+			<!-- ---start-section-1--- -->
+			<section class="index-Section-1 positon-relative">
+				<h2 class="index-Section-1-title mb-4 our-team-title text-center text-uppercase font-weight-bold">Đội
+					ngũ của chúng tôi</h2>
+				<div id="index-Section-1-carousel" class="carousel slide" data-ride="carousel">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img class="index-Section-1-carousel-img w-100" src="images/banner.jpg">
+						</div>
+						<div class="carousel-item">
+							<img class="index-Section-1-carousel-img w-100" src="images/banner.jpg">
+						</div>
+						<div class="carousel-item">
+							<img class="index-Section-1-carousel-img w-100" src="images/banner.jpg">
+						</div>
+					</div>
+					<a class="carousel-control-prev" href="#index-Section-1-carousel" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="carousel-control-next" href="#index-Section-1-carousel" role="button" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
+				</div>
+			</section>
+			<!-- ---end-section-1--- -->
+		</div>
+		<!-- ..main -->
+
+		<!------Footer---- -->
+		<div id="footer" class="container">
+			<div class="row mx-0">
+				<div class="contact-info col-lg-4 col-md-5 col-sm-12">
+					<h4>LIÊN HỆ</h4>
+					<p><strong>Công Ty CP Kỹ Thuật Môi Trường Và Xây Dựng VINACEE Việt Nam</strong></p>
+					<p>Số 5/2 Ngõ 1295. Đường Giải Phóng, Hoàng Liệt, Hoàng Mai, Hà Nội</p>
+					<p>Email: <a class="text-is-email"
+							href="mailto:nhipcaututhienvn@gmail.com">nhipcaututhienvn@gmail.com</a></p>
+					<p>Fanpage: <a
+							href="https://www.facebook.com/Nh%E1%BB%8Bp-c%E1%BA%A7u-t%E1%BB%AB-thi%E1%BB%87n-111554506928605/"
+							target="_blank" rel="noopener noreferrer">Nhịp Cầu Từ Thiện</a></p>
+					<p>Website: <a href="https://nhipcaututhien.vn/">nhipcaututhien.vn</a></p>
+					<p>Tel: 024 3537 8620 - Fax: 024 3537 8623</p>
+					<h4>Tìm Chúng Tôi</h4>
+					<div class="social">
+						<a href="#"><img class="social-item " src="images/facebook.png" alt="fb"></a>
+						<a href="#"><img class="social-item " src="images/gmail.png" alt="gmail"></a>
+						<a href="#"><img class="social-item " src="images/messenger.png" alt="mess"></a>
+						<a href="#"><img class="social-item " src="images/Logo_Zalo.png" alt="zalo"></a>
+						<a href="#"><img class="social-item " src="images/bank-icon.png" alt="bank"></a>
+					</div>
+				</div>
+				<div class="link-footer col-lg-2 col-md-2 col-sm-12 px-0">
+					<a href="index.html">Trang chủ</a>
+					<a href="about.html">Về chúng tôi</a>
+					<a href="partner.html">Đối tác</a>
+					<a href="news.html">Tin tức</a>
+					<a href="contact.html">Liên hệ</a>
+				</div>
+				<div class="img-footer col-lg-6 col-md-5 col-12 pr-md-0 px-0 pt-3 pt-sm-0">
+					<iframe
+						src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7451.844712167416!2d105.84678100000001!3d20.955633!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb083b1a40f8a2743!2zVMOyYSAwOSAtIEtodSDEkcO0IHRo4buLIHBow6FwIHbDom4gLSBU4bupIEhp4buHcCAtIFBoxrDhu51uZyBIb8OgbmcgTGnhu4d0IC0gUS5Ib8OgbmcgTWFpIC0gSE4u!5e0!3m2!1svi!2sus!4v1592035960988!5m2!1svi!2sus"
+						width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen=""
+						aria-hidden="false" tabindex="0"></iframe>
+				</div>
+			</div>
+		</div>
+		<!------End Footer------>
+	</div>
+	<!-- -------messenger ------- -->
+	<div class="messenger">
+		<img src="./images/messagerbtn.png" alt="" style="width:100%">
+		<div id='fb-root'></div>
+		<script>(function (d, s, id) {
+				var js, fjs = d.getElementsByTagName(s)[0];
+				js = d.createElement(s); js.id = id;
+				js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
+				fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));</script>
+		<div class='fb-customerchat' attribution="wordpress" page_id='111554506928605'
+			logged_in_greeting='Xin chào? Bạn cần chúng tôi hỗ trợ gì không?'
+			logged_out_greeting='Xin chào? Bạn cần chúng tôi hỗ trợ gì không?'>
+		</div>
+	</div>
+	<!-- -------end-messenger------- -->
+
+	<!-- Script -->
+	<script type="text/javascript" src="js/jquery-3.3.1.slim.min.js"></script>
+	<script type="text/javascript" src="js/popper.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="Plugin/slick/slick.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<!-- Script -->
+</body>
+
+</html>

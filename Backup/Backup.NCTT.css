@@ -1,0 +1,1432 @@
+@media screen and (min-width: 1601px){
+	#header #logo .site-logo {
+    	width: 80% !important;
+	}
+}
+
+@media screen and (max-width:1600px) {
+	
+	body:not(.wp-admin) input[type=submit], body:not(.wp-admin) button:not(.components-button):not(.customize-partial-edit-shortcut-button), body:not(.wp-admin) .btn, body:not(.wp-admin) .button, body:not(.wp-admin) .wie-button, .edit-post-visual-editor.editor-styles-wrapper input[type=submit], .edit-post-visual-editor.editor-styles-wrapper button:not(.components-button):not(.customize-partial-edit-shortcut-button), .edit-post-visual-editor.editor-styles-wrapper .btn, .edit-post-visual-editor.editor-styles-wrapper .button, .edit-post-visual-editor.editor-styles-wrapper .wie-button, .wp-block-button__link,body:not(.wp-admin) input:not([type=submit]):not([type=checkbox]), .edit-post-visual-editor.editor-styles-wrapper input:not([type=submit]):not([type=checkbox]) {
+		height: 40px;
+		line-height: 40px;
+	}
+/* 	.header-1 .site-title a{
+		font-size: 28px;
+	} */
+	.slick-filter button {
+		line-height: 50px!important;
+		height: 50px!important;
+		font-weight: bold;
+		font-size: 20px;
+	}
+	a.glink img {
+		height: 54px !important;
+	}
+	#become{
+		padding: 0 3%;
+	}
+	.view-more-btn{
+		height: 40px !important; 
+		line-height: 40px !important;
+		min-width: 140px;
+	}
+	.header .wie-top .widget:not(:last-of-type) {
+	    margin-right: 40px;
+	}
+	/*----News----*/
+/* 	#more-view{
+		transform: translate(-10%, 100%);
+	} */
+	/*----Arrow----*/
+	.fa-angle-left:before,.fa-angle-right:before{
+	color: black;
+	cursor:pointer;
+}
+/* 	.heart-gallery h3 {
+		top: 45%;
+	} */
+	/*----Header----*/
+	header .main-menu, .header .widget_nav_menu {
+		font-size: 14px;
+	}
+/* 	#header .logo img {
+    width: 75%;
+	} */
+	#header .logo{
+	margin-right: 40px;
+	}
+	.main-menu > ul > li > .nav-link{
+		font-size: 14px;
+		padding: 10px 15px;
+	}
+	.color-grey{
+		font-size: 14px;
+	}
+	#goi-tu-thien .goi-tu-thien-text{
+		top: 60%;
+	}
+}
+@media screen and (min-width:1420px){
+	#header .logo img{
+		width: 75% !important;
+	}
+	
+}
+@media screen and (max-width:1400px) {
+	body {
+		font-size: 16px!important;
+	}
+	h2 {
+		font-size: 30px;
+	}
+	h3 {
+		font-size: 20px;
+	}
+	header .logo {
+		flex: 0 0 100px;
+	}
+	input:not([type=submit]),textarea {
+		font-size: 1em;
+	}
+	body:not(.wp-admin) input[type=submit], body:not(.wp-admin) button:not(.components-button):not(.customize-partial-edit-shortcut-button), body:not(.wp-admin) .btn, body:not(.wp-admin) .button, body:not(.wp-admin) .wie-button, .edit-post-visual-editor.editor-styles-wrapper input[type=submit], .edit-post-visual-editor.editor-styles-wrapper button:not(.components-button):not(.customize-partial-edit-shortcut-button), .edit-post-visual-editor.editor-styles-wrapper .btn, .edit-post-visual-editor.editor-styles-wrapper .button, .edit-post-visual-editor.editor-styles-wrapper .wie-button, .wp-block-button__link,body:not(.wp-admin) input:not([type=submit]):not([type=checkbox]), .edit-post-visual-editor.editor-styles-wrapper input:not([type=submit]):not([type=checkbox]) {
+		height: 38px;
+		line-height: 35px;
+	}
+	a.glink img {
+		height: 50px;
+	}
+	.search-form .search-submit {
+		background-size: 30px;
+	}
+	.main-menu > ul > li > .nav-link {
+		padding: 10px 15px;
+	}
+	header .main-menu, .header .widget_nav_menu {
+		font-size: 14px;
+	}
+	.wie-easy-slider .wiebg-content .content {
+		font-size: 16px;
+	}
+
+	.fs-30 a {
+		font-size: 25px;
+	}
+	
+	.slick-filter button {
+		line-height: 50px!important;
+		height: 50px!important;
+		font-weight: bold;
+		font-size: 20px;
+	}
+}
+@media screen and (max-width:1280px) {
+	.wie-portfolio:not(.portfolio-list) .portfolio-container {
+		margin: 0  -15px!important;
+	}
+	.wie-portfolio:not(.portfolio-list) .portfolio-container .item {
+		padding: 0 15px!important;
+	}
+	.wie-sliders.testimonial-container .slick-next {
+	    right: 15px!important;
+	}
+	.wie-sliders.testimonial-container .slick-prev {
+	    left: 15px!important;
+	}
+	.slide-top .slick-prev {
+	    right: 62px!important;
+	    left: auto!important;
+	}
+	
+	body:not(.wp-admin) .wie-sliders[data-centermode=yes]:not(.slide-top) .slick-prev {
+	    left: calc(17.8% + 15px)!important;
+	}
+	body:not(.wp-admin) .wie-sliders[data-centermode=yes]:not(.slide-top) .slick-next {
+	    right: calc(17.8% + 15px)!important;
+	}
+	body:not(.wp-admin) .wie-sliders[data-centermode=yes]:after, body:not(.wp-admin) .wie-sliders[data-centermode=yes]:before {
+	    width: calc(17.8% - 15px)!important;
+	}
+	h3 {
+		font-size: 20px;
+	}
+	#header .logo img {
+    width: 100%;
+	}
+}
+@media screen and (max-width:1028px) {
+	h2.site-title  {
+		font-size: 18px;
+	}
+	
+	header .logo {
+	    flex: 0 0 80px;
+	}
+		.wp-block-wie-gutenberg-wie-easy-tabs .nav-tabs,
+	.wp-block-wie-gutenberg-wie-easy-tabs .tab-content {
+		display: none;
+	}
+	.wp-block-wie-gutenberg-wie-easy-tabs .accordion {
+		display: block;
+	}
+	.our-team-title{
+		font-size: 32px;
+	}
+}
+@media screen and (max-width:1028px) {
+	#hay-tham-gia  .item:nth-of-type(2n+1) {
+		border-right: 0;
+	}
+	#call-rise .call-rise-text {
+		padding: 0 50px;
+	}
+	#call-rise .call-rise-list,
+	#call-rise .call-rise-text,
+	#call-rise .call-rise-list .call-rise-item {
+		padding: 0 40px;
+	}
+	
+}
+@media screen and (min-width: 1024px) {
+.wie-boxed {
+    padding: 0 15%;
+}
+	#goi-tu-thien .text-pc img{
+	display:none;
+	}
+	#goi-tu-thien .text-not-pc img{
+		max-width: 500px;
+		position:absolute;
+		width: 350px;
+		top: -250px;
+		left:-300%;
+	}
+	#goi-tu-thien .text-not-pc{
+		display:none;
+		z-index: 999;
+	}
+	
+	.field-item:hover>.text-not-pc{
+		display:block !important;
+	}
+	
+	footer .social a{
+		padding: 0;
+	}
+	#become .item-content > .position-relative{
+		justify-content: flex-start;
+	}
+	.wp-block-cover.item{
+		background-size: 70%;
+	}
+	.become-1{
+		margin-right:-99px;
+	}
+	.become-2{
+		margin-right: -106px;
+	}
+	#become .item h4{
+		transform: translatex(-10px);
+	}
+	#hay-tham-gia .text{
+		padding: 20px 50px 20px;
+	}
+	.header-1 .site-title a{
+		font-size: 22px;
+	}
+	#receiver .receiver-item .position-relative{
+		display:flex; 
+		flex-direction:column;
+		margin-right: 10px;
+	}
+	#receiver .receiver-item .span{
+		height: 70px;
+		text-align:center;
+		font-size: 60px;
+	}
+	#link-bt .item p{
+		font-size:18px;
+	}
+	.find-us-wrapper .social img{
+		width: 12%;
+		transform:scale(.6);
+	}
+	.row-contact-us .wp-block-image{
+		max-width: 80%;
+		margin-left:0;
+		margin-left: 10%;
+	}
+	.row-contact-us .wp-block-image img{
+		width: 90%;
+	}
+	.row-contact-us .wie-container{
+		padding-top: 0 !important;
+	}
+	body:not(.wp-admin) input:not([type=submit]), .editor-block-list__layout input:not([type=submit]){
+		margin-bottom: 10px;
+	}
+	.row-contact-us textarea{
+		height:110px;
+	}
+	.row-contact-us .wp-block-image figcaption{
+		left:30px;
+		font-size: 12px;
+	}
+	.heart-gallery .field-item-1 figcaption, .heart-gallery .field-item-2 figcaption, .heart-gallery .field-item-3 figcaption, .heart-gallery .field-item-4 figcaption, .heart-gallery .field-item-5 figcaption, .heart-gallery .field-item-6 figcaption, .heart-gallery .field-item-7 figcaption, .heart-gallery .field-item-8 figcaption{
+		font-size: 10px;
+		margin-bottom:0;
+	}
+	#field .field-item, #goi-tu-thien .field-item{
+		width: 12%;
+		margin: 0;
+	}
+	.heart-gallery .wp-block-image{
+		width: 12%;
+	}
+	.heart-gallery .field-item-3,.heart-gallery .field-item-5{
+		left: 42%;
+	}
+	#call-rise .call-rise-text{
+		padding: 0 10%;
+	}
+	.section-title, #become .become-title{
+		padding: 0;
+	}
+	#call-rise .call-rise-list .call-rise-item{
+		padding: 0 3%;
+	}
+	#call-rise .call-rise-list figcaption a{
+		font-size:14px;
+	}
+	#link-rise .link-content{
+		padding: 0;
+		padding-top: 10px;
+	}
+	#link-rise .link-item input{
+		width: 40%;
+		padding: 26px;
+	}
+	#link-rise .link-item{
+		margin-bottom: 15px;
+	}
+	#link-rise .link-item .link-title{
+		font-size: 16px;
+	}
+	#link-rise .link-item img{
+		width: 55%;
+	}
+	.post-item .post-thumbnail img{
+		width: 90% !important;
+	}
+	.first-big .post-item h2{
+		font-size: 12px !important;
+	}
+	.first-big .post-content .content{
+		font-size: 0.65rem;
+	}
+	.first-big .post-item .post-content time{
+		font-size:10px;
+	}
+	.nha-tai-tro-gallery{
+		padding: 0 8%;
+	}
+	body:not(.wp-admin) .slick-arrow.slick-prev{
+		left:-3%
+	}
+	body:not(.wp-admin) .slick-arrow.slick-next{
+		right: -3%;
+	}
+	.wie-portfolio .item .wie-button, #news-main-2 .item a{
+		width: 60%;
+		margin-left: 20%;
+	}
+	.section-title.baochi-title .d-inline-block{
+		margin-bottom: 10px;
+	}
+	#tai-tro-truc-tiep img{
+		max-width: 30%;
+	}
+	#tai-tro-truc-tiep .wp-block-image{
+		margin-top: 0;
+	}
+	#chi-muon-trao {
+		padding: 5% 0;
+	}
+	#chi-muon-trao img{
+		width: 50%;
+	}
+	#chi-muon-trao a{
+		padding: 6px 30px;
+		background-color: #00a859;
+		color: white;
+		border-radius: 25px;
+		margin-top: 25px;
+		display: inline-block;
+	}
+	#receiver{
+		margin: 0;
+	}
+	#icon-nguoi-tai-tro-title{
+		max-width: 66px;
+	}
+	#hay-tham-gia img{
+		width: 45%;
+	}
+	.wp-block-wie-gutenberg-wie-easy-tabs .nav-tabs li{
+		margin-bottom: 20px;
+	}
+	.wp-block-wie-gutenberg-wie-easy-tabs img{
+		width: 70%;
+	}
+	.btn-dknn a, .btn-dkntt a{
+		font-size: 20px;
+		width: 265px;
+		height:50px; 
+		line-height: 50px;
+	}
+	.view-more-btn{
+		height: 40px; 
+		line-height: 40px;
+	}
+	.send-info p{
+		line-height: 30px;
+		font-size:14px;
+	}
+	.send-info h3{
+		font-size: 24px;
+	}
+	.send-info h5{
+		font-size: 24px;
+		margin-bottom: 30px;
+	}
+	#news-bg{
+		background-size: 100% 100% !important;
+	}
+	#more-view{
+		transform: translate(-50%, 100%)
+	}
+	.wie-container{
+		padding: 0;
+	}
+	.send-info-content-wrapper{
+		padding: 0 5%;
+		background-size:cover;
+	}
+	#form-trao #text-1:after,#form-trao #text-9:after, #form-trao #text-13:after{
+		border-top: 38px solid transparent;
+    	border-bottom: 38px solid transparent;
+	}
+	#form-nhan #text-1:after, #form-nhan #text-4:after, #form-nhan #text-11-2:after, #form-nhan #text-9:after{
+		border-top: 38px solid transparent;
+    	border-bottom: 38px solid transparent;
+	}
+	.them_du_an #form-trao #text-16:after{
+		border-top: 38px solid transparent;
+    	border-bottom: 38px solid transparent;
+	}
+	#gioi-thieu-chung-index .wie-col{
+		padding:0 !important;
+	}
+	#gioi-thieu-chung-index{
+		padding: 10px 50px 0 50px;
+	}
+	#gioi-thieu-chung-index .fs-40{
+		font-size: 26px !important;
+	}
+	
+	#gioi-thieu-chung-index .fs-24{
+		font-size: 16px !important;
+	}
+	#gioi-thieu-chung-index .wp-block-spacer{
+		display:none;
+	}
+	.them_du_an #text-10:after,.them_du_an #text-16:after{
+		    border-top: 38px solid transparent !important;
+    		border-bottom: 38px solid transparent !important;
+	}
+	#become .item-content{
+		padding: 0;
+	}
+	#become .item{
+		margin-bottom:0;
+	}
+	#receiver .title{
+		margin-bottom: 10px;
+	}
+	.clients button{
+		font-size: 14px;
+		line-height: 40px !important;
+		height: 40px !important;
+		padding: 0 16px !important;
+	}
+	.clients .slick-filter{
+		display:flex;
+		justify-content:center;
+	}
+	.clients .slick-slider{
+		padding: 0 10%;
+	}
+	.clients .slick-slider img{
+		width: 50%;
+	}
+	.clients .slick-slider p{
+		font-size: 14px;
+	}
+	
+}
+@media screen and (max-width:992px) {
+	#chi-muon-trao .wp-block-image img{
+		width: 50%;
+	}
+	#hay-tham-gia a{
+		bottom:0;
+	}
+	#goi-tu-thien .text-not-pc{
+		display:none;
+	}
+	#hay-tham-gia img{
+		width: 30%;
+	}
+	#hay-tham-gia .text{
+		padding: 20px 50px;
+	}
+	.btn-dknn a, .btn-dkntt a{
+		height: 60px;
+		line-height: 60px;
+		font-size: 24px; 
+		width: 350px;
+	}
+	.header-1 .site-title a{
+		font-size: 20px;
+	}
+	.bg-sm-pink {
+		background-position: right;
+	}
+	#p-btn-dki{
+		margin:0;
+	}
+	/*----Link-rise----*/
+  #link-rise .link-content {
+    padding: 20px 30px;
+  }
+  #link-rise .link-item {
+    margin-bottom: 10px;
+  }
+  #link-rise .link-item .link-title {
+    font-size: 20px;
+  }
+  #link-rise .link-item img {
+    width: 60%;
+  }
+  #link-rise .link-item input {
+    padding: 28px;
+    width: 250px;
+  }
+  /*----End Link-rise----*/
+	
+	/*----Hay tham gia----*/
+	.ct-item figcaption{
+		font-size: 16px;
+	}
+	.loa-icon img {
+    width: 20%;
+	}
+	.wp-image-535{
+		width:80%;
+		margin-left: 65%;
+	}
+	.wp-image-533{
+		width: 60%;
+		margin-left: 20%;
+	}
+	#partner-link .alignright{
+		float: none;
+	}
+	
+	/*----End Hay tham gia----*/
+	
+	.our-team-title{
+		font-size: 36px;
+	}
+	/*----News----*/
+	#news-bg{
+		background-image: none !important;
+		background-color: #ec268f;
+	}
+	#more-view{
+		transform: translate(-50%, 100%);
+	}
+	.wie-portfolio .item .wie-button, #news-main-2 .item a{
+		width: 60%;
+		margin-right: 20%;
+	}
+	.heart-gallery {
+    height: 700px;
+    padding: 0 40px !important;
+	}
+	.heart-gallery .field-item-1 figcaption, .heart-gallery .field-item-2 figcaption, .heart-gallery .field-item-3 figcaption, .heart-gallery .field-item-4 figcaption, .heart-gallery .field-item-5 figcaption, .heart-gallery .field-item-6 figcaption, .heart-gallery .field-item-7 figcaption, .heart-gallery .field-item-8 figcaption {
+    color: black;
+    font-size: 12px;
+    font-family: "NeoRegu";
+    font-weight: 700;
+}
+	.send-info .row{
+		padding: 0 80px;
+	}
+	.send-info h5{
+		margin-bottom: 20px;
+		text-align:center;
+	}
+	/*----Contact----*/
+	.row-contact-us .wp-block-image {
+    position: relative;
+    max-width: 60%;
+    margin-left: 20%;
+	}
+	.row-contact-us .wp-block-image figcaption{
+		font-size: 20px;
+	}
+	/*----End Contact----*/
+	
+	.footer .social img{
+		transform: scale(.8);
+	}
+/* 	Hay tham gia */
+	#become .item-content > .position-relative{
+		flex-wrap: wrap;
+		justify-content:flex-start;
+	}
+	#become .wp-block-cover.item{
+		background-size: 70%;
+	}
+	#become .item .wp-block-cover__inner-container{
+		width: 70%;
+	}
+	.become-1{
+		margin-right:-90px;
+		padding-left: 4%;
+		max-width: 230px;
+	}
+	.become-2{
+		margin-right: -100px;
+		padding-left:8%;
+		max-width: 275px;
+	}
+	
+/* 	End Hay tham gia */
+	#form-trao .text, #form-nhan .text {
+		margin-bottom: 20px;
+	}
+	#form-trao #text-2::after, #form-trao #text-5::after, #form-trao #text-8::after, #form-trao #text-15::after, #form-nhan #text-2::after, #form-nhan #text-5::after, #form-nhan #text-8::after, #form-nhan #text-15::after,
+	#form-trao #text-11::after, #form-nhan #text-11::after,
+	#form-trao #text-3::after, #form-trao #text-6::after, #form-trao #text-7::after, #form-trao #text-9::after, #form-trao #text-12::after, #form-trao #text-18::after, #form-nhan #text-3::after, #form-nhan #text-6::after, #form-nhan #text-7::after, #form-nhan #text-9::after, #form-nhan #text-12::after, #form-nhan #text-18::after,
+	#form-trao #text-1::after, #form-trao #text-4::after, #form-trao #text-10::after, #form-trao #text-13::after, #form-trao #text-14::after, #form-trao #text-16::after, #form-trao #text-17::after, #form-nhan #text-1::after, #form-nhan #text-4::after, #form-nhan #text-10::after, #form-nhan #text-13::after, #form-nhan #text-14::after, #form-nhan #text-16::after, #form-nhan #text-17::after {
+		border-top: 12px solid #ffd3ea;
+		border-left: 20px solid transparent;
+		left: 50%;
+		border-right: 20px solid transparent;
+		top: 100%;
+		margin-left: -25px;
+	}
+	#form-trao #text-3::after, #form-trao #text-6::after, #form-trao #text-7::after, #form-trao #text-9::after, #form-trao #text-12::after, #form-trao #text-18::after, #form-nhan #text-3::after, #form-nhan #text-6::after, #form-nhan #text-7::after, #form-nhan #text-9::after, #form-nhan #text-12::after, #form-nhan #text-18::after {
+		border-top: 12px solid #d4ffd4;
+	}
+	#form-trao #text-11::after, #form-nhan #text-11::after {
+		border-top: 12px solid #b0eaff;
+	}
+	#form-trao #text-2::after, #form-trao #text-5::after, #form-trao #text-8::after, #form-trao #text-15::after, #form-nhan #text-2::after, #form-nhan #text-5::after, #form-nhan #text-8::after, #form-nhan #text-15::after {
+		border-top: 12px solid #b0eaff;
+	}
+	#form-trao .text, #form-nhan .text {
+		width: 100%;
+	}
+	#form-trao .footer-form a, #form-nhan .footer-form a {
+		font-size: 15px;
+		padding: 8px 16px;
+	}
+}
+@media screen and (max-width:767px) {
+	.btn-dknn a, .btn-dkntt a{
+		width: 260px;
+	}
+	
+	/* 	News */
+	.first-big .post-item:first-of-type{
+		display:none;
+	}
+	#news-bg .wie-posts{
+		display:flex;
+		margin: 0 10px;
+	}
+	.post-item {
+		width: 50%!important;
+	}
+	.post-item .post-thumbnail {
+		width: 100%;
+		max-width: 100%;
+	}
+	.post-item .post-thumbnail img {
+		width: 100%;
+	}
+	.post-item h2 {
+		font-size: 1.39em;
+	}
+	.post-item .post-content {
+		display: block;
+		clear: both;
+	}
+	.header .content-right  {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
+		-webkit-box-pack: justify;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
+		        width: 100%;
+	}
+	.wie-list .featured-post {
+		width: 100%;
+		margin-bottom: 30px;
+		order: -1;
+	}
+
+	.wie-list .list-content {
+		padding-right: 0;
+		overflow: visible;
+		width: 100%;
+	}
+	.slick-list {
+		/*padding: 0 50px!important;*/
+	}
+	#header-right .widget_search {
+		display: none;
+	}
+	#primary-menu-container .widget_search {
+		display: block;
+	}
+	.fs-30 a {
+		font-size: 20px;
+	}
+	.heart-gallery {
+		height: 600px;
+	}
+
+	#hay-tham-gia .text {
+		padding: 40px 50px 80px;
+	}
+	/*----Link-rise----*/
+  #link-rise .link-content {
+    padding: 10px;
+  }
+  #link-rise .link-item {
+    margin-bottom: 10px;
+  }
+  #link-rise .link-item .link-title {
+    font-size: 16px;
+  }
+  #link-rise .link-item img {
+    width: 47%;
+  }
+  #link-rise .link-item input {
+    padding: 10px;
+    width: 170px;
+  }
+  /*----End Link-rise----*/
+	
+	.our-team-title{
+		font-size: 32px;
+	}
+	#media_image-3 img{
+		width: 60%;
+	}
+	/*----Contact----*/
+	.row-contact-us .wp-block-image figcaption{
+		font-size: 14px;
+	}
+	/*----End Contact----*/
+	
+	/*----Partner----*/
+	.bg-section-title{
+		max-width: 500px;
+		font-size: 1.25rem;
+	}
+	.wp-image-535{
+		width: 70%;
+		margin-left: 45%;
+	}
+	.slick-filter button {
+    line-height: 45px!important;
+    height: 45px!important;
+    font-weight: bold;
+    font-size: 16px;
+    }
+	.list-icon li{
+		font-size: 20px;
+	}
+	
+	/*----End Partner----*/
+	
+	/*----Goi tu thien----*/
+	#goi-tu-thien a, #goi-tu-thien .nhan-tu-thien{
+		font-size: 16px;
+	}
+	#call-rise .call-rise-text h4{
+		font-size: 30px;
+	}
+	#call-rise .call-rise-text p{
+		font-size: 20px;
+	}
+	/*----End Goi tu thien----*/
+	/*----Footer----*/
+	.footer .social img{
+		transform: scale(.8);
+	}
+	.footer ul{
+		display:flex;
+		flex-wrap: wrap;
+	}
+	footer .menu a{
+		font-size: 18px;
+		padding-right: 10px;
+	}
+	/*----Footer----*/
+	
+/* 	Lien He */
+	#contact-form-right{
+		padding: 15px 50px;
+	}
+	#become .item-content > .position-relative{
+		justify-content: center;
+	}
+	.become-2{
+		max-width: 300px;
+		padding-left: 12%;
+	}
+	.become-1{
+		max-width: 245px;
+		padding-left: 6%;
+	} 
+	#form-trao .text, #form-nhan .text {
+		padding: 10px 30px;
+		position: relative;
+		font-size: 16px;
+		text-align:center;
+	}
+	#form-trao .title #footer-form-bg, #form-trao .footer-form #footer-form-bg, #form-nhan .title #footer-form-bg, #form-nhan .footer-form #footer-form-bg,
+	#form-trao .title #header-form-bg, #form-trao .footer-form #header-form-bg, #form-nhan .title #header-form-bg, #form-nhan .footer-form #header-form-bg {
+		display: none;
+	}
+	#form-trao .title h1, #form-trao .footer-form h1, #form-nhan .title h1, #form-nhan .footer-form h1 {
+		padding: 10px;
+	}
+	#form-trao .footer-form h4,
+	#form-nhan .footer-form h4,
+	#form-trao .title a, #form-trao .footer-form a, #form-nhan .title a, #form-nhan .footer-form a {
+		bottom: 8px;
+	}
+	#form-trao .footer-form, #form-nhan .footer-form {
+		margin-left: 0;
+		height: 57px;
+	}
+	
+	#form-trao  .footer-form, #form-nhan .footer-form,
+	#form-trao .title h1, #form-nhan .title h1 {
+		background-color: #005100;
+	}
+	#form-trao .content-form, #form-nhan .content-form {
+		padding: 0 15%;
+	}
+	#form-nhan .title, #form-trao .title {
+		margin-left: 0;
+	}
+
+	.main {
+		padding: 0 15px;
+	}
+	#form-trao .footer-form, #form-nhan .footer-form {
+		text-align: center;
+		height: auto;
+		padding: 10px;
+	}
+	#form-trao  .footer-form > *:not(img),
+	#form-nhan  .footer-form > *:not(img) {
+		position: static!important;
+		display: inline-block!important;
+		margin: 5px 0!important;
+	}
+	.upload-dropzone img{
+		width: 20%;
+	}
+	.content-GTC p, .content-cauchuyenchungtoi p{
+	font-size: 18px;
+	}
+}
+@media screen and (max-width:600px) {
+	header  .widget:not(.widget_nav_menu):not(.widget_wie_socials) li {
+		display: block;
+	}
+	header .content-left .widget:not(.widget_nav_menu)  li:not(:last-of-type){
+		border-right: none;
+	}
+	.fs-30 {
+		text-align: center!important;
+	}
+	.btn-dknn a, .btn-dkntt a{
+		font-size: 16px;
+		height: 50px;
+		line-height:50px;
+		width:225px;
+	}
+	.heart-gallery {
+		height: auto!important;
+	}
+	.heart-gallery h3 {
+	    position: static;
+	    transform: none;
+	    padding-top: 10px;
+		font-size: 24px;
+	}
+	.heart-gallery .wp-block-image {
+		width: auto!important;
+		position: static!important;
+		display: inline-block;
+		float: none;
+	}
+	#goi-tu-thien a, #goi-tu-thien .nhan-tu-thien {
+		position: static;
+		display: block;
+		margin: 0 25%;
+		margin-bottom: 10px;
+	}
+	.heart-gallery .goi-tu-thien-text {
+		width: 100%!important;
+	}
+	.heart-gallery .position-relative {
+		text-align: center;
+	}
+	.heart-gallery .wp-block-image img {
+		height: 142px;
+		width: auto;
+	}
+	.row-contact-us .wp-block-image figcaption {
+		left: 45px;
+		font-size: 20px;
+	}
+	#call-rise .call-rise-text h4 {
+		font-size: 26px;
+	}
+	.list-icon li {
+		font-size: 16px;
+	}
+
+.section-title.baochi-title .d-inline-block {
+	padding-right: 30px;
+}
+	/* 	News */
+	.first-big .post-item:first-of-type{
+		display:block;
+	}
+	#news-bg .wie-posts{
+		display:flex;
+		flex-direction:column;
+	}
+	.post-item {
+		width: 100%!important;
+	}
+	.post-item .post-thumbnail {
+		width: 100% !important;
+		max-width: 100% !important;
+	}
+	.post-item .post-thumbnail img {
+		width: 100% !important;
+	}
+	.post-item h2{
+		font-size: 1.39rem!important;
+	}
+	.send-info p {
+    font-size: .875rem;
+    line-height: 30px;
+    letter-spacing: 1px;
+ 	}
+	.send-info h5{
+		font-size: 26px;
+	}
+	.send-info .row{
+		padding: 0 50px;
+	}
+	.send-info h3{
+		font-size: 24px;
+	}
+	
+	/*----Link-rise----*/
+
+  #link-rise .link-item {
+    margin-bottom: 5px;
+  }
+  #link-rise .link-item ::-webkit-input-placeholder {
+    font-size: 14px;
+  }
+  #link-rise .link-item :-ms-input-placeholder {
+    font-size: 14px;
+  }
+  #link-rise .link-item ::-ms-input-placeholder {
+    font-size: 14px;
+  }
+  #link-rise .link-item ::placeholder {
+    font-size: 14px;
+  }
+	
+  #link-rise .link-content{
+	position: relative;
+	padding: 30px 10px 10px 10px;
+	  background-image: url(http://nhipcaututhien.vn/wp-content/uploads/2019/08/goi-tu-thien-link-mobile.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+	}
+  #link-rise .link-rise-bg{
+		display:none;
+	}
+  #link-rise .link-item{
+		margin-bottom: 20px;
+	}
+  #link-rise .link-item .link-title {
+    font-size: 14px;
+    padding: 8px 12px;
+	}
+  #link-rise .link-item a{
+		width: 15%;
+	}
+	#link-rise .link-item img {
+    width: 100%;
+	}
+   #link-rise .link-item input {
+    	width: 100px;
+		height: 40px;
+    }
+/*----End Link-rise----*/
+	
+	.our-team-title{
+		font-size: 26px;
+	}
+	/*----Arrow----*/
+	body:not(.wp-admin) .slick-arrow.slick-next, body:not(.wp-admin) .slick-arrow.slick-prev{
+		display:none !important;
+	}
+	.accordion img{
+		width: 80%;
+	}
+	.row-contact-us .wp-block-image{
+		max-width: 80%;
+		margin-left: 10%;
+	}
+	.row-contact-us .wp-block-image figcaption{
+		font-size: 16px;
+	}
+	.row-contact-us input:not([type=submit]){
+		height: 40px !important;
+		line-height: 40px !important;
+	}
+	#contact-form-right h2{
+		font-size: 24px;
+	}
+	#call-rise .call-rise-list, #call-rise .call-rise-text, #call-rise .call-rise-list .call-rise-item{
+		padding: 0 15%;
+	}
+	#link-rise .link-item img{
+		width: 60%;
+	}
+	#link-rise .link-item .link-title{
+		font-size:18px;
+	}
+ 	.become-2{
+		padding-left: 15%;
+		margin-right: -60px;
+	}
+	.become-1{
+		margin-right: -60px;
+	} 
+	.content-GTC h2, .content-cauchuyenchungtoi h2{
+		font-size: 30px;
+	}
+	.content-GTC p, .content-cauchuyenchungtoi p{
+		font-size: 16px;
+	}
+}
+@media screen and (max-width:480px) {
+	.btn-dknn a, .btn-dkntt a{
+		font-size: 18px;
+		width: 260px;
+	}
+	
+	.page-wrap {
+		font-size: 0.9em;
+	}
+	.site-title {
+		display: none!important;
+	}
+	.section-title img {
+		width: 80px;
+		margin-right: 5px;
+	}
+	.section-title.baochi-title .d-inline-block {
+		padding-right: 15px;
+	}
+	.section-title.baochi-title .d-inline-block h4 {
+		font-size: 17px;
+	}
+	.testimonial-image img {
+		width: 75px;
+		height: auto;
+	 }
+	 .single-cause-area {
+	 	padding-left: 15px;
+	 	padding-right: 15px;
+	 }
+	 .nav-links .nav-text {
+	 	display: none;
+	 }
+	 .wie-sliders.testimonial-container .slick-list {
+	 	margin: 0 15px;
+	 }
+	 .wie-sliders.testimonial-container .slick-next {
+	 	right: -15px!important;
+	 }
+	.wie-sliders.testimonial-container .slick-prev {
+	 	left: -15px!important;
+	 }
+	 .wie-sliders .slider-left-panel, .wie-sliders .slider-right-panel,
+	 body:not(.wp-admin) .wie-sliders.wie-40px[data-centermode="yes"]:before, body:not(.wp-admin) .wie-sliders.wie-40px[data-centermode="yes"]:after {
+	 	display: none;
+	 }
+	 body:not(.wp-admin) .wie-sliders[data-centermode=yes]:not(.slide-top) .slick-prev {
+	 	left: 15px!important;
+	 }
+	 body:not(.wp-admin) .wie-sliders[data-centermode=yes]:not(.slide-top) .slick-next {
+	 	right: 15px!important;
+	 }
+	body:not(.wp-admin) button:not(.components-button):not(.customize-partial-edit-shortcut-button),body:not(.wp-admin) .button{
+		height: 35px;
+		min-width: 90px;
+    	line-height: 35px;
+	}
+	a.glink img {
+    	height: 50px;
+		width: 50px !important;
+}
+	.row-contact-us .wp-block-image figcaption {
+    	font-size: 10px;
+		left: 24px;
+    }
+	.row-contact-us input:not([type=submit]) {
+		line-height: 40px!important;
+		height: 40px!important;
+	}
+	.row-contact-us ::placeholder{
+		font-size: 12px;
+	}
+	.row-contact-us textarea{
+		height: 110px;
+	}
+	.row-contact-us h2{
+		font-size:24px;
+	}
+	.send-info .row{
+		padding: 0 20px;
+	}
+	.bg-section-title {
+	    padding-left: 55px;
+	    background-size: 40px;
+        background-position: center left 20px;
+        font-size: 14px;
+    }
+    #hay-tham-gia .text {
+		padding: 40px;
+	}
+	.our-team-title{
+		font-size: 24px;
+	}
+	#call-rise #more{
+		width:30%;
+		padding: 10px 0px;
+		text-align: center;
+		margin-right: 34%;
+		margin-top: 0;
+	}
+	#link-rise .link-content{
+		position: relative;
+		padding: 30px 10px 10px 10px;
+	}
+	#link-rise .link-rise-bg{
+		display:none;
+	}
+	#link-rise .link-item{
+		margin-bottom: 20px;
+	}
+	#link-rise .link-item .link-title {
+    font-size: 14px;
+    padding: 8px 12px;
+	}
+	#link-rise .link-item a{
+		width: 10%;
+	}
+	#link-rise .link-item img {
+    width: 100%;
+	}
+	#link-rise .link-item input {
+    	width: 100px;
+		height: 40px;
+    }
+	
+	
+	/*----Doi tac----*/
+	.loa-icon img{
+		width: 50%;
+		margin: 0 100px;
+	}
+	.loa-text-1{
+		font-size: 24px;
+	}
+	/*----Send-info-index----*/
+	.send-info p{
+		font-size: 12px;
+		letter-spacing: 0.5px;
+	}
+	.send-info #send-form{
+		font-size: 20px;
+	}
+	/*----Footer----*/
+	.social img{
+		width: 15%;
+	}
+	.social a{
+		padding-right:5px !important;
+	}
+	footer .menu a{
+		font-size: 12px;
+	}
+	/*----According----*/
+	.accordion .card-header .tab-title{
+		font-size: 20px;
+	}
+	/*----Tai tro----*/
+	#tai-tro{
+		text-align:center;
+	}
+	#link-bt .item{
+		text-shadow: 0 0 10px rgba(255,255,255,1);
+	}
+	.wp-block-image .alignright{
+		float: none;
+		margin: 0 20px;
+	}
+	/*----News----*/
+	.section-title.pink h4{
+		font-size: 16px;
+	}
+	.wie-portfolio .slick-arrow{
+		display:none !important;
+	}
+	.wie-portfolio .item .wie-button{
+		width: 60%;
+		line-height: 32px;
+	}
+	body:not(.wp-admin) .slick-arrow i{
+		display:none;
+	}
+	#hay-tham-gia a{
+		font-size: 12px;
+	}
+	.item .wp-block-cover__inner-container{
+		width: 70%;
+	}
+	.become-2{
+		margin-left: -30px;
+	}
+	.tieu-bieu-text{
+		font-size: 18px !important;
+		margin-bottom: 20px!important;
+		margin-top: 20px;
+	}
+	.color-grey{
+		font-size: 14px;
+	}
+	.heart-gallery h3{
+		font-size: 18px;
+	}
+	.row-contact-us .wp-block-image {
+    position: relative;
+    max-width: 100%;
+    margin-left: 0%;
+    }
+	#hay-tham-gia .text h4{
+		font-size:24px;
+	}
+	#hay-tham-gia .text p{
+		font-size:16px;
+	}
+	.become-1{
+		background-size: 70% !important;
+		padding-left: 8%;
+	}
+	.become-2{
+		padding-left: 23%;
+	}
+	#goi-tu-thien a, #goi-tu-thien .nhan-tu-thien{
+		margin: 0 10%;
+		margin-bottom: 20px;
+	}
+	#contact-form-right{
+		padding: 15px;
+	}
+	#send-contact-btn input {
+    height: 34px;
+    width: 30%;
+    margin-right: 34%;
+    font-size: 14px;
+    font-weight: bold;
+    }
+	#become .item{
+		margin-top: -40px;
+	}
+	#call-rise .call-rise-text h4{
+		font-size:22px;
+		margin-bottom: 10px;
+	}
+	#call-rise{
+		padding: 15px 0;
+	}
+	#goi-tu-thien .goi-tu-thien-text img{
+		width: 100%;
+	}
+	.gtc{
+		font-size: 26px !important;
+	}
+	.gtc_item{
+		font-size: 16px !important;
+	}
+	.btn-dkntt a, .btn-dknn a{
+		height:50px;
+		line-height: 50px;
+		margin-bottom: -10px;
+	}
+	#news-bg{
+		padding-top:0 !important;
+	}
+	#news-bg .d-lg-none{
+		margin-bottom: -10px !important;
+	}
+	.send-info h3{
+		font-size: 22px;
+	}
+	.send-info p{
+		font-size: 13px;
+	}
+/* 	#bg_index_1, #bg_index_2{
+		height:450px !important;
+	} */
+	
+	#wie-211-1565076945552{
+		margin-top: -30px;
+	}
+	#wie-211-1565076945552 .card-header{
+		padding:0;
+		border: none;
+	}
+	#wie-211-1565076945552 .card{
+		border:none;
+		margin-bottom:-10px;
+	}
+	#become .become-title h4{
+		font-size:22px;
+	}
+	#become .become-title h4{
+		padding:0;
+	}
+	.become-2:last-of-type{
+		margin-bottom:0;
+	}
+	#nguoi-tai-tro-title{
+		padding-top: 0;
+	}
+	#receiver{
+		margin: 0;
+	}
+	#receiver .title img{
+		width: 25%;
+	}
+	#receiver .title p{
+		font-size: 20px;
+	}
+	#tai-tro .wp-block-image img{
+		width: 20%;
+	}
+	#chimuontraodoi img{
+		width: 50% !important;
+	}
+	#link-bt .item p{
+		font-size: 16px;
+		margin-bottom: 15px;
+		width: 80%;
+	}
+	#link-bt .item a{
+		font-size:14px;
+	}
+	#link-bt > .row{
+		min-height: 270px;
+	}
+	#media_image-3 img{
+		width: 100%;
+		margin-left:0;
+	}
+	.bg-section-title{
+		margin-bottom: 10px;
+	}
+	.list-icon li{
+		padding-left: 60px;
+	}
+	.wie-portfolio, #news-main-2 .content-carousel{
+		margin-bottom: 0px;
+	}
+	#form-trao .text, #form-nhan .text{
+		font-size: 14px;
+		text-align:center;
+	}
+	#form-trao .content-form, #form-nhan .content-form{
+		padding: 0 6%;
+	}
+	#form-trao ::placeholder, #form-nhan ::placeholder{
+		font-size: 14px;
+	}
+	.content-GTC p, .content-cauchuyenchungtoi p{
+		font-size: 15px;
+	}
+	.content-GTC h2, .content-cauchuyenchungtoi h2{
+		font-size: 26px;
+	}
+	.clients .slick-slider p{
+		font-size: 12px;
+	}
+	#become .wp-block-cover.item{
+		background-size: 65%;
+		margin-bottom: 0;
+	}
+	#hay-tham-gia a{
+		bottom: 0;
+	}
+	.first-big .post-item:first-of-type h2{
+		font-size: 1rem;
+	}
+	.first-big .post-content .content{
+		font-size: 0.75rem;
+	}
+	.first-big .post-item .post-content time{
+		font-size: 12px;
+	}
+	#call-rise .call-rise-text p {
+    font-size: 16px;
+	}
+	#call-rise .call-rise-list figcaption a{
+		font-size: 14px;
+	}
+}
